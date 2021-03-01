@@ -17,6 +17,8 @@ Our endpoints response in JSON formation and use standard HTTP response codes.
 
 All requests must use the recure protocol: ```https```
 
+Our endpoints follow this base url: ``` https://BASEURL```
+
 ### 1.1. Quickstart Guide <a name="quickstartGuide"></a>
 If you are just getting started, see our developer [quickstart guide](#overview). It will walk you through authorization and making your first request.
 
@@ -96,13 +98,13 @@ paths
 Query String Parameters
 | Parameter   | Description | Data Type   |
 | :---------- | :---------- | :---------- |
-| name | If you provide the server name, you will get a list os all servers with that name. MAximum of one per region. | String |
-| region-code | if you provide a region code, or a list of regioncodes, comman delimited, you will get all servers in each of the provided reagions. | String |
+| ```name``` | If you provide the server name, you will get a list os all servers with that name. MAximum of one per region. | String |
+| ```region-code``` | if you provide a region code, or a list of regioncodes, comman delimited, you will get all servers in each of the provided reagions. | String |
 
 Path Parameters
 | Parameter   | Description | Data Type   |
 | :---------- | :---------- | :---------- |
-| id | If you provide the server id, your response will contain only that server's resource, if it exists. Otherwise, you can expect a 404 error. | Integer |
+| ```id``` | If you provide the server id, your response will contain only that server's resource, if it exists. Otherwise, you can expect a 404 error. | Integer |
 
 Example request using cURL:
 ```
@@ -141,8 +143,8 @@ Example response:
 Response Description
 | Response Item    | Item Description | Data Type     |
 | :--------------- | :--------------- | :------------ |
-| id | Identifies a specific server. The first digit indicates the region and the following three indicate when that server was created. Higher means it was created mosre recently. | integer |
-| name | Name of the server. A name is used once per region. A name will not be longer than 32 characters. | String |
-| region | Inidacte geographic region. Where the server is geographically. Region codes will nto be longer than 5 characters. | String |
-| status | Possible values are "ONLINE" and "OFFLINE". | String |
-| population | Indicates how many active players are have characters on this server. An active player is one who has played for at least 10 hours in the past 2 months. Maximum population per server is 100,000. | integer |
+| ```id```         | Identifies a specific server. The first digit indicates the region and the following three indicate when that server was created. Higher means it was created mosre recently. | Integer |
+| ```name```       | Name of the server. A name is used once per region. A name will not be longer than 32 characters. | String |
+| ```region```     | Inidacte geographic region. Where the server is geographically. Region codes will nto be longer than 5 characters. | String |
+| ```status```     | Possible values are "ONLINE" and "OFFLINE". | String |
+| ```population``` | Indicates how many active players are have characters on this server. An active player is one who has played for at least 10 hours in the past 2 months. Maximum population per server is 100,000. | Integer |
