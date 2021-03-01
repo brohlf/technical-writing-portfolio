@@ -1,4 +1,4 @@
-# API Documentation for Knights and Sorcerers
+# API Reference for Knights and Sorcerers
 
 ## Contents
 - [Overview](#Overview)
