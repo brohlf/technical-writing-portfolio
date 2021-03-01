@@ -37,6 +37,7 @@ The following are examples of continuous data:
 - server population
 - a character's PVP kills
 
+
 By using the Knights and Sorcerers API, you agree to our [terms of service](#Overview).
 
 ## 2. Authentication <a name="Authentication"></a>
