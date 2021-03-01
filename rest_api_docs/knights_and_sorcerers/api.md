@@ -32,10 +32,10 @@ The following are examples of continuous data:
 - server population
 - a character's PVP kills
 
-By using the Knights and Sorcerers API, you agree to our [terms of service](https://github.com/brohlf/technical-writing-portfolio/blob/main/rest_api_docs/knights_and_sorcerers/api.md).
+By using the Knights and Sorcerers API, you agree to our [terms of service](#Overview).
 
 ## 2. Authentication <a name="Authentication"></a>
-The Knights and Sorcerers API requires clients to authenticate using an OAuth 2.0 access token. To acquire an acess token, see our [Authorization Guide](https://github.com/brohlf/technical-writing-portfolio/blob/main/rest_api_docs/knights_and_sorcerers/api.md).
+The Knights and Sorcerers API requires clients to authenticate using an OAuth 2.0 access token. To acquire an acess token, see our [Authorization Guide](#Authentication).
 
 In every request's header, include a valid OAuth access token. <!-- TODO: list 2.0? , cap "access token"? -->
 
@@ -49,7 +49,7 @@ Clients are rate limited based on their memebrship tier.
 Free tier clients: 100 calls per minute
 Paid tier clients: 2500 calls per mintue
 
-Fore more information about membership tiers and their benefits, see our [Membership Tier Guide](https://github.com/brohlf/technical-writing-portfolio/blob/main/rest_api_docs/knights_and_sorcerers/api.md).
+Fore more information about membership tiers and their benefits, see our [Membership Tier Guide](#RateLimiting).
 
 ## 4. Pagination <a name="Pagination"></a>
 
