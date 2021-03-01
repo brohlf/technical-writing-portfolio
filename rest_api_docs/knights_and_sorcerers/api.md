@@ -93,6 +93,14 @@ path
 /listservers
 ```
 
+Path Parameters
+| Parameter   | Description |
+| :---------- | :---------- |
+
+Query String Parameters
+| Parameter   | Description |
+| :---------- | :---------- |
+
 Example request using cURL:
 ```
 curl https://knightsandsorcerers.com/listservers
@@ -126,6 +134,10 @@ Example response:
 }
 ```
 **Note:** The real response would be prohibitively long, so we've shown only a subset.
+
+Response Description
+| Response Item    | Item Description | Data Type    |
+| :--------------- | :--------------- | :------------|
 
 #### 6.1.1. Server status
 
