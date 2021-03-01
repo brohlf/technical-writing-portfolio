@@ -52,8 +52,8 @@ Our server run in the following regions:
 | Europe                   | EU          |
 | China                    | CN          |
 
-By using the KS API, you agree to our [terms of service](#overview).  
-<br/>
+By using the KS API, you agree to our [terms of service](#overview).
+
 ## 2. Authentication <a name="authentication"></a>
 The KS API requires clients to authenticate using an OAuth 2.0 access token. To acquire an acess token, see our developer [quickstart guide](#authentication).
 
