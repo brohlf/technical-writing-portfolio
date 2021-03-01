@@ -145,5 +145,5 @@ Response field descriptions
 | ```id```         | Identifies a specific server resource. The first digit indicates the region and the following three digits indicate when that server was created. "Merlin" was our first server, so its last three digits are "001". "Arthur" was our seventh server, so its last three digits are "007". | static | Integer |
 | ```name```       | Name of the server. A name is used once per region. A name will not be longer than 32 characters. | static | String |
 | ```region```     | Inidacates where the server is geographically. Region codes will nto be longer than 5 characters. | static | String |
-| ```status```     | Possible values are "ONLINE", "OFFLINE", and "RESTTING". A resetting server is offline but is expected to be back online shortly. | semi-static | String |
+| ```status```     | Possible values are "ONLINE", "OFFLINE", and "RESTTING". A resetting server is offline but is expected to come back online shortly. | semi-static | String |
 | ```population``` | Indicates how many active players have characters on this server. An active player is one who has played for at least 10 hours in the past 2 months. Maximum population per server is 100,000. | continuous | Integer |
