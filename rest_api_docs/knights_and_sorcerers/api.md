@@ -12,25 +12,28 @@
   - [Characters](#Characters)
 
 ## 1. Overview <a name="Overview"></a>
-The Knights and Sorcerers API is RESTful. It provides static, semi-static, and continuous game data related to servers and characters. 
+The Knights and Sorcerers API is RESTful. It provides static, semi-static, and continuous game data related to servers and characters.
 
-### 1.1. Categories of Resource Data <a name="ResourceDataCategories"></a>
+### 1.1. Quickstart Guide
+If you are jsut getting started, see our developer [quickstart guide](#Overview). It will walk you through authorization and making your first request.
 
-#### 1.1.1. static data
+### 1.2. Categories of Resource Data <a name="ResourceDataCategories"></a>
+
+#### 1.2.1. static data
 Static data changes infrequently, if at all.
 
 The following are examples of static data:
 - character name
 - server name
 
-#### 1.1.2. Semi-static data
+#### 1.2.2. Semi-static data
 Semi-static data could change frequently, but it does not change continuously.
 
 The following are examples of semi-stataic data:
 - server status
 - character achievements
 
-#### 1.1.3. Continuous data
+#### 1.2.3. Continuous data
 Continuous data changes frequently. Clients should expect it to be different every time they request it.
 
 The following are examples of continuous data:
@@ -40,7 +43,7 @@ The following are examples of continuous data:
 By using the Knights and Sorcerers API, you agree to our [terms of service](#Overview).
 
 ## 2. Authentication <a name="Authentication"></a>
-The Knights and Sorcerers API requires clients to authenticate using an OAuth 2.0 access token. To acquire an acess token, see our [Authorization Guide](#Authentication).
+The Knights and Sorcerers API requires clients to authenticate using an OAuth 2.0 access token. To acquire an acess token, see our developer [quickstart guide](#Authentication).
 
 In every request's header, include a valid OAuth access token. <!-- TODO: list 2.0? , cap "access token"? -->
 
@@ -61,6 +64,11 @@ Fore more information about membership tiers and their benefits, see our [Member
 ## 5. Localization <a name="Localization"></a>
 
 ## 6. Resources <a name="Resources"></a>
+
+Base URL:
+```
+https://knightsandsorcerers.com
+```
 
 ### 6.1. Servers <a name="Servers"></a>
 
