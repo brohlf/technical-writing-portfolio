@@ -80,7 +80,7 @@ The KS API Does not provide localization at this time, but we are working on it!
 
 Base URL:
 ```
-https://knightsandsorcerers.com
+https://BASEURL
 ```
 
 ### 6.1. Servers <a name="servers"></a>
@@ -88,22 +88,28 @@ https://knightsandsorcerers.com
 #### 6.1.1. listservers Endpoint
 List all servers for all regions or for a given region.
 
-path
+paths
 ```
 /listservers
+/listservers/?region-code=regionCode
+/listservers/?name=serverName
+/listservers/:id
 ```
 
 Path Parameters
 | Parameter   | Description |
 | :---------- | :---------- |
+| name |  |
+| region-code |  |
 
 Query String Parameters
 | Parameter   | Description |
 | :---------- | :---------- |
+| id |  |
 
 Example request using cURL:
 ```
-curl https://knightsandsorcerers.com/listservers
+curl https://BASEURL/listservers
 ```
 Example response:
 ```JSON
@@ -136,9 +142,14 @@ Example response:
 **Note:** The real response would be prohibitively long, so we've shown only a subset.
 
 Response Description
-| Response Item    | Item Description | Data Type    |
-| :--------------- | :--------------- | :------------|
-
-#### 6.1.1. serverstatus Endpoint
+| Response Item    | Item Description | Data Type     |
+| :--------------- | :--------------- | :------------ |
+| id |  |
+| name |  |
+| region |  |
+| status |  |
+| population |  |
 
 ### 6.2. Characters <a name="characters"></a>
+|  |  |
+| :--------------- | :--------------- | :------------|
