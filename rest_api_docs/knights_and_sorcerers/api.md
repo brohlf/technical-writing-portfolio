@@ -2,7 +2,7 @@
 
 ## Contents
 - [Overview](#Overview)
-  - [Categories of Response Data](#ResponseDataCategories)
+  - [Categories of Resource Data](#ResourceDataCategories)
 - [Authentication](#Authentication)
 - [Rate Limiting](#RateLimiting)
 - [Pagination](#Pagination)
@@ -14,7 +14,7 @@
 ## 1. Overview <a name="Overview"></a>
 The Knights and Sorcerers API is RESTful. It provides static, semi-static, and continuous game data related to servers and characters. 
 
-### 1.1. Categories of Response Data <a name="ResponseDataCategories"></a>
+### 1.1. Categories of Resource Data <a name="ResourceDataCategories"></a>
 
 #### 1.1.1. static data
 Static data changes infrequently, if at all.
