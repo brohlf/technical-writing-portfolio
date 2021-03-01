@@ -52,8 +52,8 @@ Our server run in the following regions:
 | Europe                   | EU          |
 | China                    | CN          |
 
-By using the KS API, you agree to our [terms of service](#overview).
-
+By using the KS API, you agree to our [terms of service](#overview).  
+&nbsp;
 ## 2. Authentication <a name="authentication"></a>
 The KS API requires clients to authenticate using an OAuth 2.0 access token. To acquire an acess token, see our developer [quickstart guide](#authentication).
 
@@ -61,21 +61,21 @@ In every request's header, include a valid OAuth access token. <!-- TODO: list 2
 
 ```
 example of OAuth access token attachment ???
-```
-
+```  
+&nbsp;
 ## 3. Rate Limiting <a name="rateLimiting"></a>
 Clients are rate limited based on their memebrship tier.
 
 Free tier clients: 100 calls per minute  
 Paid tier clients: 2500 calls per mintue
 
-Fore more information about membership tiers and their benefits, see our [Membership Tier Guide](#rateLimiting).
-
-## 4. Pagination <a name="pagination"></a>
-
+Fore more information about membership tiers and their benefits, see our [Membership Tier Guide](#rateLimiting).  
+&nbsp;
+## 4. Pagination <a name="pagination"></a>  
+&nbsp;
 ## 5. Localization <a name="localization"></a>
-The KS API Does not provide localization at this time, but we are working on it!
-
+The KS API Does not provide localization at this time, but we are working on it!  
+&nbsp;
 ## 6. Resources <a name="resources"></a>
 
 Base URL:
