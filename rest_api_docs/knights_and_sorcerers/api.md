@@ -24,7 +24,7 @@ If you are just getting started, see our developer [quickstart guide](#overview)
 ### 1.2. Categories of Resource Data <a name="resourceDataCategories"></a>
 Our endpoints respond with data that we classify in 3 ways:
 
-Data can be static, semi-static, and continuous. 
+Data can be static, semi-static, or continuous. 
 
 #### 1.2.1. static data
 Static data changes infrequently, if at all.
