@@ -7,8 +7,7 @@
   - [Region Codes](#regionCodes)
 - [Authentication](#authentication)
 - [Resources](#resources)
-  - [Servers](#servers)
-  - [Characters](#characters)
+  - [Getting Server Data](#getServers)
 
 ## 1. Overview <a name="overview"></a>
 With the Knights and Sorcerer's (KaS) RESTful API, you can get detailed information about game servers and player characters.
@@ -83,28 +82,28 @@ Base URL:
 https://BASEURL
 ```
 
-### 6.1. Servers <a name="servers"></a>
+### 6.1. Getting server data <a name="getServers"></a>
 
 List all servers for all regions or for a given region.
 
-paths
+Endpoints
 ```
 /listservers
+/listservers/:id
 /listservers/?region-code=regionCode
 /listservers/?name=serverName
-/listservers/:id
 ```
-
-Query String Parameters
-| Parameter   | Description | Data Type   |
-| :---------- | :---------- | :---------- |
-| ```name``` | If you provide the server name, you will get a list os all servers with that name. MAximum of one per region. | String |
-| ```region-code``` | if you provide a region code, or a list of regioncodes, comman delimited, you will get all servers in each of the provided reagions. | String |
 
 Path Parameters
 | Parameter   | Description | Data Type   |
 | :---------- | :---------- | :---------- |
-| ```id``` | If you provide the server id, your response will contain only that server's resource, if it exists. Otherwise, you can expect a 404 error. | Integer |
+| ```id```    | The four digit integer that identifies a single server. | Integer |
+
+Query String Parameters
+| Parameter   | Description | Data Type   |
+| :---------- | :---------- | :---------- |
+| ```name``` | Filters out all servers that do not have the given name. Two servers can only have the same name if they are in different regions. | String |
+| ```region-code``` | Filters out all servers that are not in the given regions. You may provide one region or a comma delimited list of regions. | String |
 
 Example request using cURL:
 ```
@@ -140,11 +139,11 @@ Example response:
 ```
 **Note:** The real response would be prohibitively long, so we've shown only a subset.
 
-Response Description
-| Response Item    | Item Description | Data Type     |
-| :--------------- | :--------------- | :------------ |
-| ```id```         | Identifies a specific server. The first digit indicates the region and the following three indicate when that server was created. Higher means it was created mosre recently. | Integer |
-| ```name```       | Name of the server. A name is used once per region. A name will not be longer than 32 characters. | String |
-| ```region```     | Inidacte geographic region. Where the server is geographically. Region codes will nto be longer than 5 characters. | String |
-| ```status```     | Possible values are "ONLINE" and "OFFLINE". | String |
-| ```population``` | Indicates how many active players are have characters on this server. An active player is one who has played for at least 10 hours in the past 2 months. Maximum population per server is 100,000. | Integer |
+Response field descriptions
+| Response Item    | Item Description | Data Category | Data Type     |
+| :--------------- | :--------------- | :------------ | :------------ |
+| ```id```         | Identifies a specific server resource. The first digit indicates the region and the following three digits indicate when that server was created. "Merlin" was our first server, so its last three digits are "001". "Arthur" was our seventh server, so its last three digits are "007". | static | Integer |
+| ```name```       | Name of the server. A name is used once per region. A name will not be longer than 32 characters. | static | String |
+| ```region```     | Inidacates where the server is geographically. Region codes will nto be longer than 5 characters. | static | String |
+| ```status```     | Possible values are "ONLINE" and "OFFLINE". | semi-static | String |
+| ```population``` | Indicates how many active players are have characters on this server. An active player is one who has played for at least 10 hours in the past 2 months. Maximum population per server is 100,000. | continuous | Integer |
