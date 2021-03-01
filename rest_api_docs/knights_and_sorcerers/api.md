@@ -50,6 +50,7 @@ Our server run in the following regions:
 | :----------------------- | ----------- |
 | United States of America | USA         |
 | Europe                   | EU          |
+| China                    | CN          |
 
 By using the KS API, you agree to our [terms of service](#overview).  
 
