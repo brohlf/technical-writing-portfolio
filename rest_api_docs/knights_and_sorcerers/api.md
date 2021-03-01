@@ -77,7 +77,7 @@ curl '<baseurl>/<endpoint-path>/?api-key=<your-api-key>'
 &nbsp;
 ## 6. Resources <a name="resources"></a>
 
-Base URL:
+Our endpoints follow this base url:
 ```
 https://BASEURL
 ```
