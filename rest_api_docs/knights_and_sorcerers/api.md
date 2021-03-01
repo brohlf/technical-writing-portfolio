@@ -11,45 +11,52 @@
   - [Characters](#characters)
 
 ## 1. Overview <a name="overview"></a>
-The Knights and Sorcerers (KS) API is RESTful. It provides static, semi-static, and continuous game data related to servers and characters.
+With the Knights and Sorcerer's (KaS) RESTful API, you can get detailed information about game servers and player characters.
+
+Our endpoints response in JSON formation and use standard HTTP response codes.
+
+All requests must use the recure protocol: ```https```
 
 ### 1.1. Quickstart Guide <a name="quickstartGuide"></a>
-If you are just getting started, see our developer [quickstart guide](#overview). It will walk you through authorization and help you make your first request using cURL.
+If you are just getting started, see our developer [quickstart guide](#overview). It will walk you through authorization and making your first request.
 
 ### 1.2. Categories of Resource Data <a name="resourceDataCategories"></a>
+Our endpoints respond with data that we classify in 3 ways. 
+
+Data can be static, semi-static, and continuous. 
 
 #### 1.2.1. static data
 Static data changes infrequently, if at all.
 
-The following are examples of static data:
+Examples of static data:
 - character name
 - server name
 
 #### 1.2.2. Semi-static data
 Semi-static data could change frequently, but it does not change continuously.
 
-The following are examples of semi-stataic data:
+Examples of semi-stataic data:
 - server status
 - character achievements
 
 #### 1.2.3. Continuous data
-Continuous data changes frequently. Clients should expect it to be different every time they request it.
+Continuous data changes frequently. You should expect it to be different every time you request it.
 
-The following are examples of continuous data:
+Examples of continuous data:
 - server population
 - a character's PVP kills
 
 ### 1.3.1. Region Codes <a name="regionCodes"></a>
-All of our servers have one instance per region. When requesting data about an character or server, you must include the region code.
+At this time, we serve 3 regions. Our servers have one instance per region. You can unclude the region codes below with your request to filter your results.
 
-Our server run in the following regions:
+Our servers are deployed in the following regions:
 | Region                   | Region Code |
 | :----------------------- | ----------- |
 | United States of America | USA         |
 | Europe                   | EU          |
 | China                    | CN          |
 
-By using the KS API, you agree to our [terms of service](#overview).  
+By using the KaS API, you agree to our [terms of service](#overview).  
 &nbsp;
 ## 2. Authentication <a name="authentication"></a>
 The KS API requires clients to authenticate using an OAuth 2.0 access token. To acquire an acess token, see our developer [quickstart guide](#authentication).
