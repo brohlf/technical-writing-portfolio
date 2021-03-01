@@ -7,6 +7,8 @@
 - [Pagination](#Pagination)
 - [Localization](#Localization)
 - [Resources](#Resources)
+  - [Servers](#Servers)
+  - [Characters](#Characters)
 
 ## 1. Overview <a name="Overview"></a>
 The Knights and Sorcerers API is RESTful. It provides satic, semi-static, and continuous game data related to servers and characters. 
@@ -57,6 +59,6 @@ Fore more information about membership tiers and their benefits, see our [Member
 
 ## 6. Resources <a name="Resources"></a>
 
-### 6.1. Servers
+### 6.1. Servers <a name="Servers"></a>
 
-### 6.2. Characters
+### 6.2. Characters <a name="Characters"></a>
