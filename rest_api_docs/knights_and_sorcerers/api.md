@@ -4,6 +4,7 @@
 - [Overview](#overview)
   - [Quickstart Guide](#quickstartGuide)
   - [Categories of Resource Data](#resourceDataCategories)
+  - [Region Codes](#regionCodes)
 - [Authentication](#authentication)
 - [Rate Limiting](#rateLimiting)
 - [Pagination](#pagination)
@@ -16,9 +17,9 @@
 The Knights and Sorcerers (KS) API is RESTful. It provides static, semi-static, and continuous game data related to servers and characters.
 
 ### 1.1. Quickstart Guide <a name="quickstartGuide"></a>
-If you are just getting started, see our developer [quickstart guide](#overview). It will walk you through authorization and help you make your first request.
+If you are just getting started, see our developer [quickstart guide](#overview). It will walk you through authorization and help you make your first request using curl.
 
-### 1.2. Categories of Resource Data <a name="ResourceDataCategories"></a>
+### 1.2. Categories of Resource Data <a name="resourceDataCategories"></a>
 
 #### 1.2.1. static data
 Static data changes infrequently, if at all.
@@ -40,8 +41,17 @@ Continuous data changes frequently. Clients should expect it to be different eve
 The following are examples of continuous data:
 - server population
 - a character's PVP kills
-  
-By using the KS API, you agree to our [terms of service](#overview).
+
+### 1.3.1. Region Codes <a name="regionCodes"></a>
+All of our servers have one instance per region. When requesting data about an character or server, you must include the region code.
+
+Our server run in the following regions:
+| Region                   | Region Code |
+| :----------------------- | ----------- |
+| United States of America | USA         |
+| Europe                   | EU          |
+
+By using the KS API, you agree to our [terms of service](#overview).  
 
 ## 2. Authentication <a name="authentication"></a>
 The KS API requires clients to authenticate using an OAuth 2.0 access token. To acquire an acess token, see our developer [quickstart guide](#authentication).
