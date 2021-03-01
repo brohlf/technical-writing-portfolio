@@ -2,6 +2,7 @@
 
 ## Contents
 - [Overview](#Overview)
+  - [Response Data Categories](#ResponseDataCategories)
 - [Authentication](#Authentication)
 - [Rate Limiting](#RateLimiting)
 - [Pagination](#Pagination)
@@ -13,21 +14,23 @@
 ## 1. Overview <a name="Overview"></a>
 The Knights and Sorcerers API is RESTful. It provides static, semi-static, and continuous game data related to servers and characters. 
 
-### 1.1. static data
+### 1.1. Response Data Categories <a name="ResponseDataCategories"></a>
+
+#### 1.1.1. static data
 Static data changes infrequently, if at all.
 
 The following are examples of static data:
 - character name
 - server name
 
-### 1.2. Semi-static data
+#### 1.1.2. Semi-static data
 Semi-static data could change frequently, but it does not change continuously.
 
 The following are examples of semi-stataic data:
 - server status
 - character achievements
 
-### 1.3. Continuous data
+#### 1.1.3. Continuous data
 Continuous data changes frequently. Clients should expect it to be different every time they request it.
 
 The following are examples of continuous data:
