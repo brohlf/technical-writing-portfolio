@@ -6,9 +6,6 @@
   - [Categories of Resource Data](#resourceDataCategories)
   - [Region Codes](#regionCodes)
 - [Authentication](#authentication)
-- [Rate Limiting](#rateLimiting)
-- [Pagination](#pagination)
-- [Localization](#localization)
 - [Resources](#resources)
   - [Servers](#servers)
   - [Characters](#characters)
@@ -63,19 +60,6 @@ In every request's header, include a valid OAuth access token. <!-- TODO: list 2
 example of OAuth access token attachment ???
 ```  
 &nbsp;
-## 3. Rate Limiting <a name="rateLimiting"></a>
-Clients are rate limited based on their memebrship tier.
-
-Free tier clients: 100 calls per minute  
-Paid tier clients: 2500 calls per mintue
-
-Fore more information about membership tiers and their benefits, see our [Membership Tier Guide](#rateLimiting).  
-&nbsp;
-## 4. Pagination <a name="pagination"></a>  
-&nbsp;
-## 5. Localization <a name="localization"></a>
-The KS API Does not provide localization at this time, but we are working on it!  
-&nbsp;
 ## 6. Resources <a name="resources"></a>
 
 Base URL:
@@ -85,7 +69,6 @@ https://BASEURL
 
 ### 6.1. Servers <a name="servers"></a>
 
-#### 6.1.1. listservers Endpoint
 List all servers for all regions or for a given region.
 
 paths
@@ -149,7 +132,3 @@ Response Description
 | region | Inidacte geographic region. Where the server is geographically. Region codes will nto be longer than 5 characters. | String |
 | status | Possible values are "ONLINE" and "OFFLINE". | String |
 | population | Indicates how many active players are have characters on this server. An active player is one who has played for at least 10 hours in the past 2 months. Maximum population per server is 100,000. | integer |
-
-### 6.2. Characters <a name="characters"></a>
-|  |  |
-| :--------------- | :--------------- | :------------|
