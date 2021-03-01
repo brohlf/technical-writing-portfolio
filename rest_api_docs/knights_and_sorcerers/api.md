@@ -1,21 +1,22 @@
 # API Reference for Knights and Sorcerers
 
 ## Contents
-- [Overview](#Overview)
-  - [Categories of Resource Data](#ResourceDataCategories)
-- [Authentication](#Authentication)
-- [Rate Limiting](#RateLimiting)
-- [Pagination](#Pagination)
-- [Localization](#Localization)
-- [Resources](#Resources)
-  - [Servers](#Servers)
-  - [Characters](#Characters)
+- [Overview](#overview)
+  - [Quickstart Guide](#quickstartGuide)
+  - [Categories of Resource Data](#resourceDataCategories)
+- [Authentication](#ruthentication)
+- [Rate Limiting](#rateLimiting)
+- [Pagination](#pagination)
+- [Localization](#localization)
+- [Resources](#resources)
+  - [Servers](#servers)
+  - [Characters](#characters)
 
-## 1. Overview <a name="Overview"></a>
+## 1. Overview <a name="overview"></a>
 The Knights and Sorcerers API is RESTful. It provides static, semi-static, and continuous game data related to servers and characters.
 
-### 1.1. Quickstart Guide
-If you are jsut getting started, see our developer [quickstart guide](#Overview). It will walk you through authorization and making your first request.
+### 1.1. Quickstart Guide <a name="quickstartGuide"></a>
+If you are jsut getting started, see our developer [quickstart guide](#overview). It will walk you through authorization and making your first request.
 
 ### 1.2. Categories of Resource Data <a name="ResourceDataCategories"></a>
 
@@ -40,10 +41,10 @@ The following are examples of continuous data:
 - server population
 - a character's PVP kills
   
-By using the Knights and Sorcerers API, you agree to our [terms of service](#Overview).
+By using the Knights and Sorcerers API, you agree to our [terms of service](#overview).
 
-## 2. Authentication <a name="Authentication"></a>
-The Knights and Sorcerers API requires clients to authenticate using an OAuth 2.0 access token. To acquire an acess token, see our developer [quickstart guide](#Authentication).
+## 2. Authentication <a name="authentication"></a>
+The Knights and Sorcerers API requires clients to authenticate using an OAuth 2.0 access token. To acquire an acess token, see our developer [quickstart guide](#authentication).
 
 In every request's header, include a valid OAuth access token. <!-- TODO: list 2.0? , cap "access token"? -->
 
@@ -51,25 +52,25 @@ In every request's header, include a valid OAuth access token. <!-- TODO: list 2
 example of OAuth access token attachment ???
 ```
 
-## 3. Rate Limiting <a name="RateLimiting"></a>
+## 3. Rate Limiting <a name="rateLimiting"></a>
 Clients are rate limited based on their memebrship tier.
 
 Free tier clients: 100 calls per minute
 Paid tier clients: 2500 calls per mintue
 
-Fore more information about membership tiers and their benefits, see our [Membership Tier Guide](#RateLimiting).
+Fore more information about membership tiers and their benefits, see our [Membership Tier Guide](#rateLimiting).
 
-## 4. Pagination <a name="Pagination"></a>
+## 4. Pagination <a name="pagination"></a>
 
-## 5. Localization <a name="Localization"></a>
+## 5. Localization <a name="localization"></a>
 
-## 6. Resources <a name="Resources"></a>
+## 6. Resources <a name="resources"></a>
 
 Base URL:
 ```
 https://knightsandsorcerers.com
 ```
 
-### 6.1. Servers <a name="Servers"></a>
+### 6.1. Servers <a name="servers"></a>
 
-### 6.2. Characters <a name="Characters"></a>
+### 6.2. Characters <a name="characters"></a>
