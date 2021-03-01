@@ -107,7 +107,7 @@ Query String Parameters
 
 Example request using cURL:
 ```
-curl-H 'Authentication: bearer <your-api-key>' 'https://BASEURL/listservers'
+curl -H 'Authentication: bearer <your-api-key>' 'https://BASEURL/listservers'
 ```
 Example response:
 ```JSON
