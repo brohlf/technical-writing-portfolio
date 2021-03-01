@@ -62,7 +62,7 @@ In every request's header, include a valid OAuth access token. <!-- TODO: list 2
 ```
 example of OAuth access token attachment ???
 ```
-
+<br/>
 ## 3. Rate Limiting <a name="rateLimiting"></a>
 Clients are rate limited based on their memebrship tier.
 
