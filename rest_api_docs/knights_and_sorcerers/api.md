@@ -10,11 +10,11 @@
   - [Getting Server Data](#getServers)
 
 ## 1. Overview <a name="overview"></a>
-With the Knights and Sorcerer's (KaS) RESTful API, you can get detailed information about game servers and player characters.
+With the Knights and Sorcerers (KaS) RESTful API, you can get detailed information about game servers and player characters.
 
-Our endpoints response in JSON formation and use standard HTTP response codes.
+Our endpoints respond in JSON formation and use standard HTTP response codes.
 
-All requests must use the recure protocol: ```https```
+All requests must use the secure protocol: ```https```
 
 Our endpoints follow this base url: ``` https://BASEURL```
 
@@ -22,7 +22,7 @@ Our endpoints follow this base url: ``` https://BASEURL```
 If you are just getting started, see our developer [quickstart guide](#overview). It will walk you through authorization and making your first request.
 
 ### 1.2. Categories of Resource Data <a name="resourceDataCategories"></a>
-Our endpoints respond with data that we classify in 3 ways. 
+Our endpoints respond with data that we classify in 3 ways:
 
 Data can be static, semi-static, and continuous. 
 
