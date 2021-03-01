@@ -66,7 +66,7 @@ example of OAuth access token attachment ???
 ## 3. Rate Limiting <a name="rateLimiting"></a>
 Clients are rate limited based on their memebrship tier.
 
-Free tier clients: 100 calls per minute
+Free tier clients: 100 calls per minute  
 Paid tier clients: 2500 calls per mintue
 
 Fore more information about membership tiers and their benefits, see our [Membership Tier Guide](#rateLimiting).
