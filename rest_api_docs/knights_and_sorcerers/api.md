@@ -59,13 +59,20 @@ Our servers are deployed in the following regions:
 By using the KaS API, you agree to our [terms of service](#overview).  
 &nbsp;
 ## 2. Authentication <a name="authentication"></a>
-The KS API requires clients to authenticate using an OAuth 2.0 access token. To acquire an acess token, see our developer [quickstart guide](#authentication).
+To access our data, you will need an API key. If you do not have one, see our developer [quickstart guide](#overview).
 
-In every request's header, include a valid OAuth access token. <!-- TODO: list 2.0? , cap "access token"? -->
+We suport two methods of authentication.
 
+Authenticating in your request header:
 ```
-example of OAuth access token attachment ???
+curl -H 'Authentication: bearer <your-api-key>' '<baseurl>/<endpoint-path>/'
+```
+
+Authenticating in the query string:
+```
+curl '<baseurl>/<endpoint-path>/?api-key=<your-api-key>'
 ```  
+
 &nbsp;
 ## 6. Resources <a name="resources"></a>
 
