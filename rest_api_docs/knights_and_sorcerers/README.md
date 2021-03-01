@@ -5,4 +5,6 @@ Knights and Sorcerers is a fictional massively multiplayer online (MMO) roleplay
 
 I wrote the API document using Markdown.
 
+TODO: talk about inspirations (Stripe API doc, Blizzard API docs, medium API doc)
+
 **Note:** The API document contains mock links to other documents. These just lead back to the API document.
