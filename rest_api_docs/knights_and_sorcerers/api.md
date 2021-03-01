@@ -125,7 +125,7 @@ Example response:
   ]
 }
 ```
-**Note:** The real response prohibitively long, so we've shown only a subset.
+**Note:** The real response would be prohibitively long, so we've shown only a subset.
 
 #### 6.1.1. Server status
 
