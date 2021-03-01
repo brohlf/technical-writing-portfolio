@@ -85,7 +85,7 @@ https://knightsandsorcerers.com
 
 ### 6.1. Servers <a name="servers"></a>
 
-#### 6.1.1. Servers
+#### 6.1.1. listservers Endpoint
 List all servers for all regions or for a given region.
 
 path
@@ -139,6 +139,6 @@ Response Description
 | Response Item    | Item Description | Data Type    |
 | :--------------- | :--------------- | :------------|
 
-#### 6.1.1. Server status
+#### 6.1.1. serverstatus Endpoint
 
 ### 6.2. Characters <a name="characters"></a>
