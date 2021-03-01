@@ -17,7 +17,7 @@
 The Knights and Sorcerers (KS) API is RESTful. It provides static, semi-static, and continuous game data related to servers and characters.
 
 ### 1.1. Quickstart Guide <a name="quickstartGuide"></a>
-If you are just getting started, see our developer [quickstart guide](#overview). It will walk you through authorization and help you make your first request using curl.
+If you are just getting started, see our developer [quickstart guide](#overview). It will walk you through authorization and help you make your first request using cURL.
 
 ### 1.2. Categories of Resource Data <a name="resourceDataCategories"></a>
 
@@ -84,5 +84,46 @@ https://knightsandsorcerers.com
 ```
 
 ### 6.1. Servers <a name="servers"></a>
+
+#### 6.1.1. Servers
+List all servers for all regions or for a given region.
+
+path
+```
+/listservers
+```
+
+Example request using cURL:
+```
+curl https://knightsandsorcerers.com/listservers
+```
+Example response:
+```JSON
+{
+  "servers": [
+    {
+      "id": 1001,
+      "name": "Merlin",
+      "region": "USA",
+      "population": 97573
+    },
+    {
+      "id": 2001,
+      "name": "Merlin",
+      "region": "EU",
+      "population": 127699
+    },
+    {
+      "id": 3007,
+      "name": "Arthur",
+      "region": "CN",
+      "population": 76509
+    },
+    ...
+  ]
+}
+```
+
+#### 6.1.1. Server status
 
 ### 6.2. Characters <a name="characters"></a>
