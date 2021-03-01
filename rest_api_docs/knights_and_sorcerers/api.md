@@ -1,7 +1,7 @@
 # Knights and Sorcerers API Documentation
 
 ## Contents
-- [Overview](Overview)
+- [Overview](#Overview)
 
 ## 1. Overview <a name="Overview"></a>
 The Knights and Sorcerers API is RESTful. It provides satic, semi-static, and continuous game data related to servers and characters. 
