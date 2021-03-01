@@ -4,7 +4,7 @@
 - [Overview](#overview)
   - [Quickstart Guide](#quickstartGuide)
   - [Categories of Resource Data](#resourceDataCategories)
-- [Authentication](#ruthentication)
+- [Authentication](#authentication)
 - [Rate Limiting](#rateLimiting)
 - [Pagination](#pagination)
 - [Localization](#localization)
