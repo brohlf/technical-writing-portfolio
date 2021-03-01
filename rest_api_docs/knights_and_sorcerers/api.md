@@ -105,24 +105,27 @@ Example response:
       "id": 1001,
       "name": "Merlin",
       "region": "USA",
+      "status": "UP",
       "population": 97573
     },
     {
       "id": 2001,
       "name": "Merlin",
       "region": "EU",
+      "status": "UP",
       "population": 127699
     },
     {
       "id": 3007,
       "name": "Arthur",
       "region": "CN",
+      "status": "DOWN",
       "population": 76509
-    },
-    ...
+    }
   ]
 }
 ```
+**Note:** The real response prohibitively long, so we've shown only a subset.
 
 #### 6.1.1. Server status
 
