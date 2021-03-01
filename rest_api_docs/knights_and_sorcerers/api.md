@@ -96,16 +96,16 @@ paths
 /listservers/:id
 ```
 
-Path Parameters
-| Parameter   | Description |
-| :---------- | :---------- |
-| name |  |
-| region-code |  |
-
 Query String Parameters
-| Parameter   | Description |
-| :---------- | :---------- |
-| id |  |
+| Parameter   | Description | Data Type   |
+| :---------- | :---------- | :---------- |
+| name | If you provide the server name, you will get a list os all servers with that name. MAximum of one per region. | String |
+| region-code | if you provide a region code, or a list of regioncodes, comman delimited, you will get all servers in each of the provided reagions. | String |
+
+Path Parameters
+| Parameter   | Description | Data Type   |
+| :---------- | :---------- | :---------- |
+| id | If you provide the server id, your response will contain only that server's resource, if it exists. Otherwise, you can expect a 404 error. | Integer |
 
 Example request using cURL:
 ```
@@ -119,21 +119,21 @@ Example response:
       "id": 1001,
       "name": "Merlin",
       "region": "USA",
-      "status": "UP",
+      "status": "ONLINE",
       "population": 97573
     },
     {
       "id": 2001,
       "name": "Merlin",
       "region": "EU",
-      "status": "UP",
-      "population": 127699
+      "status": "ONLINE",
+      "population": 27699
     },
     {
       "id": 3007,
       "name": "Arthur",
       "region": "CN",
-      "status": "DOWN",
+      "status": "OFFLINE",
       "population": 76509
     }
   ]
@@ -144,11 +144,11 @@ Example response:
 Response Description
 | Response Item    | Item Description | Data Type     |
 | :--------------- | :--------------- | :------------ |
-| id |  |
-| name |  |
-| region |  |
-| status |  |
-| population |  |
+| id | Identifies a specific server. The first digit indicates the region and the following three indicate when that server was created. Higher means it was created mosre recently. | integer |
+| name | Name of the server. A name is used once per region. A name will not be longer than 32 characters. | String |
+| region | Inidacte geographic region. Where the server is geographically. Region codes will nto be longer than 5 characters. | String |
+| status | Possible values are "ONLINE" and "OFFLINE". | String |
+| population | Indicates how many active players are have characters on this server. An active player is one who has played for at least 10 hours in the past 2 months. Maximum population per server is 100,000. | integer |
 
 ### 6.2. Characters <a name="characters"></a>
 |  |  |
