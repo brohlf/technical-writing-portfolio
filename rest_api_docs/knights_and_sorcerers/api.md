@@ -86,7 +86,7 @@ https://BASEURL
 
 List all servers for all regions or for a given region.
 
-Endpoints
+Endpoints:
 ```
 /listservers
 /listservers/:id
@@ -94,12 +94,12 @@ Endpoints
 /listservers/?name=serverName
 ```
 
-Path Parameters
+Path Parameters:
 | Parameter   | Description | Data Type   |
 | :---------- | :---------- | :---------- |
 | ```id```    | The four digit integer that identifies a single server. | Integer |
 
-Query String Parameters
+Query String Parameters:
 | Parameter   | Description | Data Type   |
 | :---------- | :---------- | :---------- |
 | ```name``` | Filters out all servers that do not have the given name. Two servers can only have the same name if they are in different regions. | String |
@@ -137,9 +137,9 @@ Example response:
   ]
 }
 ```
-**Note:** The real response would be prohibitively long, so we've shown only a subset.
+**Note:** The real response would be prohibitively long. This example response is only a subset of what you would see.
 
-Response field descriptions
+Response field descriptions:
 | Response Item    | Item Description | Data Category | Data Type     |
 | :--------------- | :--------------- | :------------ | :------------ |
 | ```id```         | Identifies a specific server resource. The first digit indicates the region and the following three digits indicate when that server was created. "Merlin" was our first server, so its last three digits are "001". "Arthur" was our seventh server, so its last three digits are "007". | static | Integer |
