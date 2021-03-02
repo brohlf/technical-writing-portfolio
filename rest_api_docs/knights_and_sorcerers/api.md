@@ -46,7 +46,7 @@ Examples of continuous data:
 - a character's kill count
 
 ### 1.3.1. Region Codes <a name="regionCodes"></a>
-At this time, we serve three geographic regions. Each server has one instance per region. You can include the region codes below with your request to filter your results.
+At this time, we serve three geographic regions. Each server has one instance per region. You can include region codes with your request to filter your results.
 
 Our servers are deployed in the following regions:
 | Region                   | Region Code |
