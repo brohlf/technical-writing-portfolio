@@ -84,7 +84,7 @@ https://BASEURL
 
 ### 6.1. Servers <a name="serverData"></a>
 
-Server objects contain data about the identity and status of our game servers. These endpoints provide you with general and targeted approaches to monitoring this data.
+Server objects contain data about the identity and status of our game servers. The following endpoints provide you with general and targeted approaches to monitoring this data.
 
 Endpoints:
 ```
