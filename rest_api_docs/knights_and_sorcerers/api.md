@@ -22,7 +22,7 @@ Our endpoints build on this base url: ``` https://BASEURL```
 If you are just getting started, see our developer [quickstart guide](#overview). It will walk you through authorization and making your first request.
 
 ### 1.2. Categories of Resource Data <a name="resourceDataCategories"></a>
-Our endpoints respond with data that we classify in 3 ways. Data can be static, semi-static, or continuous. 
+Our endpoints respond with data that we classify in three ways. Data can be static, semi-static, or continuous. 
 
 #### 1.2.1. Static
 Static data changes infrequently, if at all.
