@@ -74,14 +74,14 @@ curl '<baseurl>/<endpoint-path>/?api-key=<your-api-key>'
 
 While we suport both methods, **we recommend** attaching your API key to your request header because this is more secure.
 
-## 6. Resources <a name="resources"></a>
+## 3. Resources <a name="resources"></a>
 
 Our endpoints build on this base url:
 ```
 https://BASEURL
 ```
 
-### 6.1. Servers <a name="serverData"></a>
+### 3.1. Servers <a name="serverData"></a>
 
 Server objects contain data about the identity and status of our game servers. The following endpoints provide general and targeted approaches to monitoring this data.
 
