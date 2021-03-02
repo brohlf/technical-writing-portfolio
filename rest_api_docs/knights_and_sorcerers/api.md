@@ -7,7 +7,7 @@
   - [Region Codes](#regionCodes)
 - [Authentication](#authentication)
 - [Resources](#resources)
-  - [Server Data](#serverData)
+  - [Servers](#serverData)
 
 ## 1. Overview <a name="overview"></a>
 With the Knights and Sorcerers (KaS) RESTful API, you can get detailed information about game servers and player characters.
@@ -26,21 +26,21 @@ Our endpoints respond with data that we classify in 3 ways:
 
 Data can be static, semi-static, or continuous. 
 
-#### 1.2.1. Static Data
+#### 1.2.1. Static
 Static data changes infrequently, if at all.
 
 Examples of static data:
 - character name
 - server name
 
-#### 1.2.2. Semi-Static Data
+#### 1.2.2. Semi-Static
 Semi-static data could change frequently, but it does not change continuously.
 
 Examples of semi-stataic data:
 - server status
 - character achievements
 
-#### 1.2.3. Continuous Data
+#### 1.2.3. Continuous
 Continuous data changes frequently. You should expect it to be different every time you request it.
 
 Examples of continuous data:
@@ -82,7 +82,7 @@ Our endpoints follow this base url:
 https://BASEURL
 ```
 
-### 6.1. Server Data <a name="serverData"></a>
+### 6.1. Servers <a name="serverData"></a>
 
 List all servers for all regions or for a given region.
 
