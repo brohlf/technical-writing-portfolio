@@ -84,7 +84,7 @@ https://BASEURL
 
 ### 6.1. Servers <a name="serverData"></a>
 
-Server objects contain data about the identity and status of our game servers. The following endpoints provide you with general and targeted approaches to monitoring this data.
+Server objects contain data about the identity and status of our game servers. The following endpoints provide general and targeted approaches to monitoring this data.
 
 Endpoints:
 ```
@@ -97,7 +97,7 @@ GET  /listservers/?name=serverName
 Path Parameters:
 | Parameter   | Description | Data Type   |
 | :---------- | :---------- | :---------- |
-| ```id```    | The four digit integer that identifies a single server. | Integer |
+| ```id```    | Four digit integer that identifies a single server. | Integer |
 
 Query String Parameters:
 | Parameter   | Description | Data Type   |
@@ -137,13 +137,13 @@ Example response:
   ]
 }
 ```
-**Note:** The real response to our example request would be prohibitively long. This example response shows only a subset of what you would see.
+**Note:** The real response to our example request would be too long to display. This example response shows only a subset of what you would see.
 
 Response field descriptions:
 | Response Item    | Item Description | Data Category | Data Type     |
 | :--------------- | :--------------- | :------------ | :------------ |
 | ```id```         | Identifies a specific server resource. The first digit indicates the region and the following three digits indicate when that server was created. "Merlin" was our first server, so its last three digits are "001". "Arthur" was our seventh server, so its last three digits are "007". | static | Integer |
 | ```name```       | Name of the server. A name is used once per region. A name will not be longer than 32 characters. | static | String |
-| ```region```     | Indicates where the server is geographically. Region codes will not be longer than 5 characters. | static | String |
+| ```region```     | Indicates where the server is geographically. Region codes will not be longer than five characters. | static | String |
 | ```status```     | Possible values are "ONLINE", "OFFLINE", and "RESETTING". A resetting server is offline but is expected to come back online shortly. | semi-static | String |
-| ```population``` | Indicates how many active players have characters on this server. An active player is one who has played for at least 10 hours in the past 2 months. Maximum population per server is 100,000. | continuous | Integer |
+| ```population``` | Indicates how many active players have characters on this server. An active player is one who has played for at least 10 in the past two months. Maximum population per server is 100,000. | continuous | Integer |
