@@ -62,7 +62,7 @@ By using the KaS API, you agree to our [terms of service](#overview).
 ## 2. Authentication <a name="authentication"></a>
 To access our data, you will need an API key. If you do not have one, see our developer [quickstart guide](#overview).
 
-We suport two methods of authentication.
+We suport the following two methods of authentication.
 
 Authenticating in your request header:
 ```
