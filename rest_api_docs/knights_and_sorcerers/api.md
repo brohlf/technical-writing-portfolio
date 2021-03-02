@@ -72,7 +72,7 @@ Authenticating in the query string:
 curl '<baseurl>/<endpoint-path>/?api-key=<your-api-key>'
 ```  
 
-While we suport both methods, we recommend attaching your API key to your request header because it is more secure.
+While we suport both methods, **we recommend** attaching your API key to your request header because this is more secure.
 
 &nbsp;
 ## 6. Resources <a name="resources"></a>
