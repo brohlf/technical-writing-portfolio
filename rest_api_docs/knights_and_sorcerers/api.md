@@ -103,7 +103,7 @@ Query String Parameters:
 | Parameter   | Description | Data Type   |
 | :---------- | :---------- | :---------- |
 | ```name``` | Filters out all servers that do not have the given name. Two servers can only have the same name if they are in different regions. | String |
-| ```region-code``` | Filters out all servers that are not in the given regions. You may provide one region or a comma delimited list of regions. | String |
+| ```region-code``` | Filters out all servers that are not in the given regions. You may provide one region or a comma-separated list of regions. | String |
 
 Example request:
 ```
