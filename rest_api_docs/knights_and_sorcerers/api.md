@@ -18,6 +18,8 @@ All requests must use the HTTP secure protocol: ```https```
 
 Our endpoints build on this base url: ``` https://BASEURL```
 
+By using the KaS API, you agree to our [terms of service](#overview).  
+
 ### 1.1. Quickstart Guide <a name="quickstartGuide"></a>
 If you are just getting started, see our developer [quickstart guide](#overview). It will walk you through authorization and making your first request.
 
@@ -54,8 +56,6 @@ Our servers are deployed in the following regions:
 | United States of America | USA         |
 | Europe                   | EU          |
 | China                    | CN          |
-
-By using the KaS API, you agree to our [terms of service](#overview).  
 &nbsp;
 ## 2. Authentication <a name="authentication"></a>
 To access our data, you will need an API key. If you do not have one, see our developer [quickstart guide](#overview).
