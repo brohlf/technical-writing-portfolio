@@ -55,8 +55,8 @@ Our servers are deployed in the following regions:
 | :----------------------- | ----------- |
 | United States of America | USA         |
 | Europe                   | EU          |
-| China                    | CN          |
-&nbsp;
+| China                    | CN          | 
+
 ## 2. Authentication <a name="authentication"></a>
 To access our data, you will need an API key. If you do not have one, see our developer [quickstart guide](#overview).
 
@@ -74,7 +74,6 @@ curl '<baseurl>/<endpoint-path>/?api-key=<your-api-key>'
 
 While we suport both methods, **we recommend** attaching your API key to your request header because this is more secure.
 
-&nbsp;
 ## 6. Resources <a name="resources"></a>
 
 Our endpoints build on this base url:
