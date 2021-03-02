@@ -14,9 +14,9 @@ With the Knights and Sorcerers (KaS) RESTful API, you can get detailed informati
 
 Our endpoints respond in JSON formation and use standard HTTP response codes.
 
-All requests must use the secure protocol: ```https```
+All requests must use the HTTP secure protocol: ```https```
 
-Our endpoints follow this base url: ``` https://BASEURL```
+Our endpoints build on this base url: ``` https://BASEURL```
 
 ### 1.1. Quickstart Guide <a name="quickstartGuide"></a>
 If you are just getting started, see our developer [quickstart guide](#overview). It will walk you through authorization and making your first request.
@@ -45,10 +45,10 @@ Continuous data changes frequently. You should expect it to be different every t
 
 Examples of continuous data:
 - server population
-- a character's PVP kills
+- a character's kill count
 
 ### 1.3.1. Region Codes <a name="regionCodes"></a>
-At this time, we serve 3 regions. Our servers have one instance per region. You can unclude the region codes below with your request to filter your results.
+At this time, we serve 3 geographic regions. Our servers have one instance per region. You can include the region codes below with your request to filter your results.
 
 Our servers are deployed in the following regions:
 | Region                   | Region Code |
@@ -77,21 +77,21 @@ curl '<baseurl>/<endpoint-path>/?api-key=<your-api-key>'
 &nbsp;
 ## 6. Resources <a name="resources"></a>
 
-Our endpoints follow this base url:
+Our endpoints build on this base url:
 ```
 https://BASEURL
 ```
 
 ### 6.1. Servers <a name="serverData"></a>
 
-List all servers for all regions or for a given region.
+Server objects contain data about the identity and status of our game servers. These endpoints provide you with general and targeted approaches to monitoring this data.
 
 Endpoints:
 ```
-/listservers
-/listservers/:id
-/listservers/?region-code=regionCode
-/listservers/?name=serverName
+GET  /listservers
+GET  /listservers/:id
+GET  /listservers/?region-code=regionCode
+GET  /listservers/?name=serverName
 ```
 
 Path Parameters:
@@ -105,7 +105,7 @@ Query String Parameters:
 | ```name``` | Filters out all servers that do not have the given name. Two servers can only have the same name if they are in different regions. | String |
 | ```region-code``` | Filters out all servers that are not in the given regions. You may provide one region or a comma delimited list of regions. | String |
 
-Example request using cURL:
+Example request:
 ```
 curl -H 'Authentication: bearer <your-api-key>' 'https://BASEURL/listservers'
 ```
@@ -137,7 +137,7 @@ Example response:
   ]
 }
 ```
-**Note:** The real response would be prohibitively long. This example response is only a subset of what you would see.
+**Note:** The real response to our example request would be prohibitively long. This example response shows only a subset of what you would see.
 
 Response field descriptions:
 | Response Item    | Item Description | Data Category | Data Type     |
