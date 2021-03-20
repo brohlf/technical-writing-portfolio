@@ -92,12 +92,12 @@ GET  /listservers/?region-code=regionCode
 GET  /listservers/?name=serverName
 ```
 
-Path Parameters:
+Path parameters:
 | Parameter   | Description | Data Type   |
 | :---------- | :---------- | :---------- |
 | ```id```    | Four digit integer that identifies a single server. | Integer |
 
-Query String Parameters:
+Query string parameters:
 | Parameter   | Description | Data Type   |
 | :---------- | :---------- | :---------- |
 | ```name``` | Filters out all servers that do not have the given name. Two servers can only have the same name if they are in different regions. | String |
@@ -157,12 +157,12 @@ GET /listcharacters/?serverid=serverId
 GET /listcharacters/?name=characterName
 ```
 
-Path Parameters:
+Path parameters:
 | Parameter   | Description | Data Type   |
 | :---------- | :---------- | :---------- |
 | ```id``` |  |  |
 
-Query String Parameters:
+Query string parameters:
 | Parameter   | Description | Data Type   |
 | :---------- | :---------- | :---------- |
 | ```serverid``` |  |  |
