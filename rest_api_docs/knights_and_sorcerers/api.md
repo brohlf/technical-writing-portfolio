@@ -146,13 +146,15 @@ Response field descriptions:
 | ```status```     | Possible values are "ONLINE", "OFFLINE", and "RESETTING". A resetting server is offline but is expected to come back online shortly. | semi-static | String |
 | ```population``` | Indicates how many active players have characters on this server. An active player is one who has played for at least 10 hours in the past two months. Maximum population per server is 100,000. | continuous | Integer |
 
-### 3.1. Characters <a name="characterData"></a>
+### 3.2. Characters <a name="characterData"></a>
 
 Characer objects contain data about the state of player characters, which each exist on exactly one server. The following endpoints provide general and targeted approaches to monitoring this data.
 
 Endpoints:
 ```
-GET
+GET /listcharacters/:id
+GET /listcharacters/?serverid=serverId
+GET /listcharacters/?name=characterName
 ```
 
 Path Parameters:
@@ -173,6 +175,17 @@ curl -H 'Authentication: bearer <your-api-key>' 'https://BASEURL/'
 Example response:
 ```JSON
 {
+    "characters": [
+        {
+            "id": 34719,
+            "name": "Lushan",
+            "server": 1001,
+            "class": "Sorcerer",
+            "level": 60,
+            "status": "ALIVE",
+            "kills": 73
+        }
+    ]
 }
 ```
 
