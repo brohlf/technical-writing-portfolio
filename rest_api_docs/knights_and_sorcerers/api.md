@@ -8,6 +8,7 @@
 - [Authentication](#authentication)
 - [Resources](#resources)
   - [Servers](#serverData)
+  - [Characters](#characterData)
 
 ## 1. Overview <a name="overview"></a>
 With the Knights and Sorcerers (KaS) RESTful API, you can get detailed information about game servers and player characters. Our endpoints respond in JSON format and use standard HTTP response codes.
@@ -144,3 +145,42 @@ Response field descriptions:
 | ```region```     | Indicates where the server is geographically. Region codes will not be longer than 5 characters. | static | String |
 | ```status```     | Possible values are "ONLINE", "OFFLINE", and "RESETTING". A resetting server is offline but is expected to come back online shortly. | semi-static | String |
 | ```population``` | Indicates how many active players have characters on this server. An active player is one who has played for at least 10 hours in the past two months. Maximum population per server is 100,000. | continuous | Integer |
+
+### 3.1. Characters <a name="characterData"></a>
+
+Characer objects...
+
+Endpoints:
+```
+GET
+```
+
+Path Parameters:
+| Parameter   | Description | Data Type   |
+| :---------- | :---------- | :---------- |
+|  |  |  |
+
+Query String Parameters:
+| Parameter   | Description | Data Type   |
+| :---------- | :---------- | :---------- |
+|  |  |  |
+|  |  |  |
+
+Example request:
+```
+curl -H 'Authentication: bearer <your-api-key>' 'https://BASEURL/'
+```
+Example response:
+```JSON
+{
+}
+```
+
+Response field descriptions:
+| Response Item    | Item Description | Data Category | Data Type     |
+| :--------------- | :--------------- | :------------ | :------------ |
+|  |  |  |  |
+|  |  |  |  |
+|  |  |  |  |
+|  |  |  |  |
+|  |  |  |  |
