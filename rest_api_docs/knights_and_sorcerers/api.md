@@ -140,7 +140,7 @@ Example response:
 Response field descriptions:
 | Response Item    | Item Description | Data Category | Data Type     |
 | :--------------- | :--------------- | :------------ | :------------ |
-| ```id```         | Identifies a specific server resource. The first digit indicates the server's region and the following three digits indicate when that server was created. For example, if the first digit is "1", that server is in the USA. "Merlin" was our first server, so its last three digits are "001". So, an ```id``` of "1001" and "2001" identify the USA and EU instances of our first server, respectively. | static | Integer |
+| ```id```         | Identifies a specific server resource. The first digit indicates the server's region, and the following three digits indicate when that server was created. For example, if a server's first digit is "1", that server is in the USA. "Merlin" was our first server, so its last three digits are "001". So, an ```id``` of "1001" and "2001" identify the USA and EU instances of our first server, respectively. | static | Integer |
 | ```name```       | Name of the server. A name is used once per region. A name will not be longer than 32 characters. | static | String |
 | ```region```     | Indicates where the server is geographically. Region codes will not be longer than 5 characters. | static | String |
 | ```status```     | Possible values are "ONLINE", "OFFLINE", and "RESETTING". A resetting server is offline but is expected to come back online shortly. | semi-static | String |
@@ -160,17 +160,17 @@ GET /listcharacters/?name=characterName
 Path Parameters:
 | Parameter   | Description | Data Type   |
 | :---------- | :---------- | :---------- |
-|  |  |  |
+| ```id``` |  |  |
 
 Query String Parameters:
 | Parameter   | Description | Data Type   |
 | :---------- | :---------- | :---------- |
-|  |  |  |
-|  |  |  |
+| ```serverid``` |  |  |
+| ```name``` |  |  |
 
 Example request:
 ```
-curl -H 'Authentication: bearer <your-api-key>' 'https://BASEURL/'
+curl -H 'Authentication: bearer <your-api-key>' 'https://BASEURL/?name=Lushan'
 ```
 Example response:
 ```JSON
@@ -184,6 +184,15 @@ Example response:
             "level": 60,
             "status": "ALIVE",
             "kills": 73
+        },
+        {
+            "id": 66735,
+            "name": "Lushan",
+            "server": 3007,
+            "class": "Knight",
+            "level": 32,
+            "status": "DEAD",
+            "kills": 13
         }
     ]
 }
@@ -192,8 +201,9 @@ Example response:
 Response field descriptions:
 | Response Item    | Item Description | Data Category | Data Type     |
 | :--------------- | :--------------- | :------------ | :------------ |
-|  |  |  |  |
-|  |  |  |  |
-|  |  |  |  |
-|  |  |  |  |
-|  |  |  |  |
+| ```id``` |  |  |  |
+| ```name``` |  |  |  |
+| ```server``` |  |  |  |
+| ```class``` |  |  |  |
+| ```status``` |  |  |  |
+| ```kills``` |  |  |  |
