@@ -137,7 +137,7 @@ Example response:
 ```
 **Note:** The real response to our example request would be too long to display. This example response shows only a subset of what you would see.
 
-Response field descriptions:
+Response variable descriptions:
 | Response Item    | Item Description | Data Category | Data Type     |
 | :--------------- | :--------------- | :------------ | :------------ |
 | ```id```         | Identifies a specific server resource. The first digit indicates the server's region, and the following three digits indicate when that server was created. For example, if a server's first digit is "1", that server is in the USA. "Merlin" was our first server, so its last three digits are "001". So, an ```id``` of "1001" and "2001" identify the USA and EU instances of our first server, respectively. | static | Integer |
@@ -198,7 +198,7 @@ Example response:
 }
 ```
 
-Response field descriptions:
+Response variable descriptions:
 | Response Item    | Item Description | Data Category | Data Type     |
 | :--------------- | :--------------- | :------------ | :------------ |
 | ```id``` |  |  |  |
