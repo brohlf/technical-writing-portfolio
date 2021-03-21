@@ -160,13 +160,13 @@ GET /listcharacters/?name=characterName
 Path parameters:
 | Parameter   | Description | Data Type   |
 | :---------- | :---------- | :---------- |
-| ```id``` |  |  |
+| ```id``` | Identifies a specific character object. Each id is unique across all servers. | Integer |
 
 Query string parameters:
 | Parameter   | Description | Data Type   |
 | :---------- | :---------- | :---------- |
-| ```serverid``` |  |  |
-| ```name``` |  |  |
+| ```serverid``` | Refer to the server resource description of this value. It identified all characters belonging to the referenced server.  | Integer |
+| ```name``` | Identifies a specific character object on one server. Each name is unique on the character's server. Two characters may only have the same name if the characters exist on different servers. | String |
 
 Example request:
 ```
@@ -201,9 +201,10 @@ Example response:
 Response variable descriptions:
 | Response Item    | Item Description | Data Category | Data Type     |
 | :--------------- | :--------------- | :------------ | :------------ |
-| ```id``` |  |  |  |
-| ```name``` |  |  |  |
-| ```server``` |  |  |  |
-| ```class``` |  |  |  |
-| ```status``` |  |  |  |
-| ```kills``` |  |  |  |
+| ```id``` | Refer to the path parameter description of this value. | static | Integer |
+| ```name``` | Refer to the query string parameter description of this value. | static | String |
+| ```server``` | Refer to the query string parameter description of this value. | static | Integer |
+| ```class``` | Names a character's class. Possible values are "sorcerer" and "knight". | static | String |
+| ```status``` | Marks if the character is alive or dead. Possible values are "alive" and "dead". | continuous | String |
+| ```level``` | Marks the character's class level. The minimum value is 1, and the maximum value is 60. | semi-static | Integer |
+| ```kills``` | Scores how many other player character kills the character has achieved in player vs. player combat. | continuous | Integer |
