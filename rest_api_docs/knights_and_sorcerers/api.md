@@ -115,21 +115,21 @@ Example response:
       "server-id": 1001,
       "server-name": "Merlin",
       "region-code": "USA",
-      "server-status": "ONLINE",
+      "server-status": "online",
       "population": 97573
     },
     {
       "server-id": 2001,
       "server-name": "Merlin",
       "region-code": "EU",
-      "server-status": "RESETTING",
+      "server-status": "resetting",
       "population": 27699
     },
     {
       "server-id": 3007,
       "server-name": "Arthur",
       "region-code": "CN",
-      "server-status": "OFFLINE",
+      "server-status": "offline",
       "population": 76509
     }
   ]
@@ -143,7 +143,7 @@ Response variable descriptions:
 | ```server-id```         | Identifies a specific server resource. The first digit indicates the server's region, and the following three digits indicate when that server was created. For example, if a server's first digit is "1", that server is in the USA. "Merlin" was our first server, so its last three digits are "001". So, an ```id``` of "1001" and "2001" identify the USA and EU instances of our first server, respectively. | static | Integer |
 | ```server-name```       | Identifies a server by its name. Two servers can only have the same name if they are in different regions. A name will not be longer than 32 characters | static | String |
 | ```region-code```| Idenitifies a server's geographic location. Region codes will not be longer than 5 characters. | static | String |
-| ```server-status```     | Possible values are "ONLINE", "OFFLINE", and "RESETTING". A resetting server is offline but is expected to come back online shortly. | semi-static | String |
+| ```server-status```     | Possible values are "online", "offline", and "resetting". A resetting server is offline but is expected to come back online shortly. | semi-static | String |
 | ```population``` | Indicates how many active players have characters on this server. An active player is one who has played for at least 10 hours in the past two months. Maximum population per server is 100,000. | continuous | Integer |
 
 ### 3.2. Characters <a name="characterData"></a>
@@ -160,13 +160,13 @@ GET /listcharacters/?character-name=<characterName>
 Path parameters:
 | Parameter   | Description | Data Type   |
 | :---------- | :---------- | :---------- |
-| ```character-id``` | Identifies a specific character object. Each id is unique across all servers. | Integer |
+| ```character-id``` | Identifies a specific character object. Each id is totally unique. Whether any two character objects are on the same server or on different servers, no two character objects will have the same id. Character ids are 5-digit integers. | Integer |
 
 Query string parameters:
 | Parameter   | Description | Data Type   |
 | :---------- | :---------- | :---------- |
-| ```server-id``` | Refer to the server resource description of this value. It identified all characters belonging to the referenced server.  | Integer |
-| ```character-name``` | Identifies a specific character object on one server. Each name is unique on the character's server. Two characters may only have the same name if the characters exist on different servers. | String |
+| ```server-id``` | Identifies the server to which a character object is associated and filters out any character objects not associated with the given server ids. Server ids are 4 digit integers.  | Integer |
+| ```character-name``` | Identifies any number or character objects across all servers that posses the name and filters out any character objects that don't posses the name. Character names are no longer than 32 characters. | String |
 
 Example request:
 ```
@@ -182,7 +182,7 @@ Example response:
             "server-id": 1001,
             "class": "Sorcerer",
             "level": 60,
-            "character-status": "ALIVE",
+            "character-status": "alive",
             "kills": 73
         },
         {
@@ -191,7 +191,7 @@ Example response:
             "server-id": 3007,
             "class": "Knight",
             "level": 32,
-            "character-status": "DEAD",
+            "character-status": "dead",
             "kills": 13
         }
     ]
@@ -201,10 +201,10 @@ Example response:
 Response variable descriptions:
 | Response Item    | Item Description | Data Category | Data Type     |
 | :--------------- | :--------------- | :------------ | :------------ |
-| ```character-id``` | Refer to the path parameter description of this value. | static | Integer |
-| ```character-name``` | Refer to the query string parameter description of this value. | static | String |
-| ```server-id``` | Refer to the query string parameter description of this value. | static | Integer |
-| ```class``` | Names a character's class. Possible values are "sorcerer" and "knight". | static | String |
-| ```character-status``` | Marks if the character is alive or dead. Possible values are "alive" and "dead". | continuous | String |
-| ```level``` | Marks the character's class level. The minimum value is 1, and the maximum value is 60. | semi-static | Integer |
-| ```kills``` | Scores how many other player character kills the character has achieved in player vs. player combat. | continuous | Integer |
+| ```character-id``` | Identifies a specific character object. Each id is totally unique. Whether any two character objects are on the same server or on different servers, no two character objects will have the same id. Character ids are 5-digit integers. | static | Integer |
+| ```character-name``` | Identifies the server to which a character object is associated and filters out any character objects no associated with the given server ids. Server ids are 4 digit integers. | static | String |
+| ```server-id``` | Identifies any number or character objects across all servers that posses the name and filters out any character objects that don't posses the name. Character names are no longer than 32 characters. | static | Integer |
+| ```class``` | Indicates a character's class. Possible values are "sorcerer" and "knight". A character can only have one class. | static | String |
+| ```level``` | Indicates a character's class level. The minimum value is 1, and the maximum value is 60. | semi-static | Integer |
+| ```character-status``` | Indicates if the character is alive or dead. Possible values are "alive" and "dead". | continuous | String |
+| ```kills``` | Indicates how many other player characters the character has killed in player vs. player combat. | continuous | Integer |
