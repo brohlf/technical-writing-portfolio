@@ -100,7 +100,7 @@ Path parameters:
 Query string parameters:
 | Parameter   | Description | Data Type   |
 | :---------- | :---------- | :---------- |
-| ```name``` | Filters out all servers that do not have the given name. Two servers can only have the same name if they are in different regions. | String |
+| ```name``` <a name="serverName"></a> | Identifies a server by its name. Filters out all servers that do not have the given name. Two servers can only have the same name if they are in different regions. A name will not be longer than 32 characters. | String |
 | ```region-code``` | Filters out all servers that are not in the given regions. You may provide one region or a comma-separated list of regions. | String |
 
 Example request:
@@ -114,21 +114,21 @@ Example response:
     {
       "id": 1001,
       "name": "Merlin",
-      "region": "USA",
+      "region-code": "USA",
       "status": "ONLINE",
       "population": 97573
     },
     {
       "id": 2001,
       "name": "Merlin",
-      "region": "EU",
+      "region-code": "EU",
       "status": "RESETTING",
       "population": 27699
     },
     {
       "id": 3007,
       "name": "Arthur",
-      "region": "CN",
+      "region-code": "CN",
       "status": "OFFLINE",
       "population": 76509
     }
@@ -141,8 +141,8 @@ Response variable descriptions:
 | Response Item    | Item Description | Data Category | Data Type     |
 | :--------------- | :--------------- | :------------ | :------------ |
 | ```id```         | Identifies a specific server resource. The first digit indicates the server's region, and the following three digits indicate when that server was created. For example, if a server's first digit is "1", that server is in the USA. "Merlin" was our first server, so its last three digits are "001". So, an ```id``` of "1001" and "2001" identify the USA and EU instances of our first server, respectively. | static | Integer |
-| ```name```       | Name of the server. A name is used once per region. A name will not be longer than 32 characters. | static | String |
-| ```region```     | Indicates where the server is geographically. Region codes will not be longer than 5 characters. | static | String |
+| ```name```       | Identifies a server by its name. Refer to the descipription of the [*name*](#serverData) path parameter for details. | static | String |
+| ```region-code```| Idenitifies a server's geographic location. Region codes will not be longer than 5 characters. | static | String |
 | ```status```     | Possible values are "ONLINE", "OFFLINE", and "RESETTING". A resetting server is offline but is expected to come back online shortly. | semi-static | String |
 | ```population``` | Indicates how many active players have characters on this server. An active player is one who has played for at least 10 hours in the past two months. Maximum population per server is 100,000. | continuous | Integer |
 
