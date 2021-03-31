@@ -87,20 +87,20 @@ Server objects contain data about the identity and status of our game servers. T
 Endpoints:
 ```
 GET  /listservers
-GET  /listservers/:id
-GET  /listservers/?region-code=regionCode
-GET  /listservers/?name=serverName
+GET  /listservers/:server-id
+GET  /listservers/?region-code=<regionCode>
+GET  /listservers/?server-name=<serverName>
 ```
 
 Path parameters:
 | Parameter   | Description | Data Type   |
 | :---------- | :---------- | :---------- |
-| ```id```    | Four digit integer that identifies a single server. | Integer |
+| ```server-id```    | Four digit integer that identifies a single server. | Integer |
 
 Query string parameters:
 | Parameter   | Description | Data Type   |
 | :---------- | :---------- | :---------- |
-| ```name``` <a name="serverName"></a> | Identifies a server by its name. Filters out all servers that do not have the given name. Two servers can only have the same name if they are in different regions. A name will not be longer than 32 characters. | String |
+| ```server-name``` <a name="serverName"></a> | Identifies a server by its name. Filters out all servers that do not have the given name. Two servers can only have the same name if they are in different regions. A name will not be longer than 32 characters. | String |
 | ```region-code``` | Filters out all servers that are not in the given regions. You may provide one region or a comma-separated list of regions. | String |
 
 Example request:
@@ -112,24 +112,24 @@ Example response:
 {
   "servers": [
     {
-      "id": 1001,
-      "name": "Merlin",
+      "server-id": 1001,
+      "server-name": "Merlin",
       "region-code": "USA",
-      "status": "ONLINE",
+      "server-status": "ONLINE",
       "population": 97573
     },
     {
-      "id": 2001,
-      "name": "Merlin",
+      "server-id": 2001,
+      "server-name": "Merlin",
       "region-code": "EU",
-      "status": "RESETTING",
+      "server-status": "RESETTING",
       "population": 27699
     },
     {
-      "id": 3007,
-      "name": "Arthur",
+      "server-id": 3007,
+      "server-name": "Arthur",
       "region-code": "CN",
-      "status": "OFFLINE",
+      "server-status": "OFFLINE",
       "population": 76509
     }
   ]
@@ -140,10 +140,10 @@ Example response:
 Response variable descriptions:
 | Response Item    | Item Description | Data Category | Data Type     |
 | :--------------- | :--------------- | :------------ | :------------ |
-| ```id```         | Identifies a specific server resource. The first digit indicates the server's region, and the following three digits indicate when that server was created. For example, if a server's first digit is "1", that server is in the USA. "Merlin" was our first server, so its last three digits are "001". So, an ```id``` of "1001" and "2001" identify the USA and EU instances of our first server, respectively. | static | Integer |
-| ```name```       | Identifies a server by its name. Refer to the descipription of the [*name*](#serverData) path parameter for details. | static | String |
+| ```server-id```         | Identifies a specific server resource. The first digit indicates the server's region, and the following three digits indicate when that server was created. For example, if a server's first digit is "1", that server is in the USA. "Merlin" was our first server, so its last three digits are "001". So, an ```id``` of "1001" and "2001" identify the USA and EU instances of our first server, respectively. | static | Integer |
+| ```server-name```       | Identifies a server by its name. Refer to the descipription of the [*name*](#serverData) path parameter for details. | static | String |
 | ```region-code```| Idenitifies a server's geographic location. Region codes will not be longer than 5 characters. | static | String |
-| ```status```     | Possible values are "ONLINE", "OFFLINE", and "RESETTING". A resetting server is offline but is expected to come back online shortly. | semi-static | String |
+| ```server-status```     | Possible values are "ONLINE", "OFFLINE", and "RESETTING". A resetting server is offline but is expected to come back online shortly. | semi-static | String |
 | ```population``` | Indicates how many active players have characters on this server. An active player is one who has played for at least 10 hours in the past two months. Maximum population per server is 100,000. | continuous | Integer |
 
 ### 3.2. Characters <a name="characterData"></a>
@@ -152,21 +152,21 @@ Characer objects contain data about the state of player characters, which each e
 
 Endpoints:
 ```
-GET /listcharacters/:id
-GET /listcharacters/?serverid=serverId
-GET /listcharacters/?name=characterName
+GET /listcharacters/:character-id
+GET /listcharacters/?server-id=<serverId>
+GET /listcharacters/?character-name=<characterName>
 ```
 
 Path parameters:
 | Parameter   | Description | Data Type   |
 | :---------- | :---------- | :---------- |
-| ```id``` | Identifies a specific character object. Each id is unique across all servers. | Integer |
+| ```character-id``` | Identifies a specific character object. Each id is unique across all servers. | Integer |
 
 Query string parameters:
 | Parameter   | Description | Data Type   |
 | :---------- | :---------- | :---------- |
-| ```serverid``` | Refer to the server resource description of this value. It identified all characters belonging to the referenced server.  | Integer |
-| ```name``` | Identifies a specific character object on one server. Each name is unique on the character's server. Two characters may only have the same name if the characters exist on different servers. | String |
+| ```server-id``` | Refer to the server resource description of this value. It identified all characters belonging to the referenced server.  | Integer |
+| ```character-name``` | Identifies a specific character object on one server. Each name is unique on the character's server. Two characters may only have the same name if the characters exist on different servers. | String |
 
 Example request:
 ```
@@ -177,21 +177,21 @@ Example response:
 {
     "characters": [
         {
-            "id": 34719,
-            "name": "Lushan",
-            "server": 1001,
+            "character-id": 34719,
+            "character-name": "Lushan",
+            "server-id": 1001,
             "class": "Sorcerer",
             "level": 60,
-            "status": "ALIVE",
+            "character-status": "ALIVE",
             "kills": 73
         },
         {
-            "id": 66735,
-            "name": "Lushan",
-            "server": 3007,
+            "character-id": 66735,
+            "character-name": "Lushan",
+            "server-id": 3007,
             "class": "Knight",
             "level": 32,
-            "status": "DEAD",
+            "character-status": "DEAD",
             "kills": 13
         }
     ]
@@ -201,10 +201,10 @@ Example response:
 Response variable descriptions:
 | Response Item    | Item Description | Data Category | Data Type     |
 | :--------------- | :--------------- | :------------ | :------------ |
-| ```id``` | Refer to the path parameter description of this value. | static | Integer |
-| ```name``` | Refer to the query string parameter description of this value. | static | String |
-| ```server``` | Refer to the query string parameter description of this value. | static | Integer |
+| ```character-id``` | Refer to the path parameter description of this value. | static | Integer |
+| ```character-name``` | Refer to the query string parameter description of this value. | static | String |
+| ```server-id``` | Refer to the query string parameter description of this value. | static | Integer |
 | ```class``` | Names a character's class. Possible values are "sorcerer" and "knight". | static | String |
-| ```status``` | Marks if the character is alive or dead. Possible values are "alive" and "dead". | continuous | String |
+| ```character-status``` | Marks if the character is alive or dead. Possible values are "alive" and "dead". | continuous | String |
 | ```level``` | Marks the character's class level. The minimum value is 1, and the maximum value is 60. | semi-static | Integer |
 | ```kills``` | Scores how many other player character kills the character has achieved in player vs. player combat. | continuous | Integer |
