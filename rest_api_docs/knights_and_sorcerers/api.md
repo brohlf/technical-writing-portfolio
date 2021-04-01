@@ -95,7 +95,7 @@ GET  /listservers/?server-name=<serverName>
 Path parameters:
 | Parameter   | Description | Data Type   |
 | :---------- | :---------- | :---------- |
-| ```server-id```    | Four digit integer that identifies a single server. | Integer |
+| ```server-id```    | Identifies a single server. Server ids are 4 digits. | Integer |
 
 Query string parameters:
 | Parameter   | Description | Data Type   |
