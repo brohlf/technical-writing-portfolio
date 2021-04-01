@@ -143,7 +143,7 @@ Response variable descriptions:
 | ```server-id```         | Identifies a specific server resource. The first digit indicates the server's region, and the following three digits indicate when that server was created. For example, if a server's first digit is "1", that server is in the USA. "Merlin" was our first server, so its last three digits are "001". So, an ```id``` of "1001" and "2001" identify the USA and EU instances of our first server, respectively. | static | Integer |
 | ```server-name```       | Identifies a server by its name. Two servers can only have the same name if they are in different regions. A name will not be longer than 32 characters | static | String |
 | ```region-code```| Idenitifies a server's geographic location. Region codes will not be longer than 5 characters. | static | String |
-| ```server-status```     | Possible values are "online", "offline", and "resetting". A resetting server is offline but is expected to come back online shortly. | semi-static | String |
+| ```server-status```     | Indicates whether a server is "online", "offline", or "resetting". A resetting server is offline but is expected to come back online shortly. | semi-static | String |
 | ```population``` | Indicates how many active players have characters on this server. An active player is one who has played for at least 10 hours in the past two months. Maximum population per server is 100,000. | continuous | Integer |
 
 ### 3.2. Characters <a name="characterData"></a>
