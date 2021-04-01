@@ -148,7 +148,7 @@ Response variable descriptions:
 
 ### 3.2. Characters <a name="characterData"></a>
 
-Characer objects contain data about the state of player characters. A character object is associated with exactly one server. The following endpoints provide general and targeted approaches to monitoring this data.
+Character objects contain data about the state of player characters. A character object is associated with one server. The following endpoints provide general and targeted approaches to monitoring player characters.
 
 Endpoints:
 ```
@@ -160,13 +160,13 @@ GET /listcharacters/?character-name=<characterName>
 Path parameters:
 | Parameter   | Description | Data Type   |
 | :---------- | :---------- | :---------- |
-| ```character-id``` | Identifies a specific character object. Each id is totally unique. Whether any two character objects are on the same server or on different servers, no two character objects will have the same id. Character ids are 5-digit integers. | Integer |
+| ```character-id``` | Identifies a specific character object. Each id is unique. No two character objects (on different servers or on the same server) will have the same id. Character ids are 5-digit integers. | Integer |
 
 Query string parameters:
 | Parameter   | Description | Data Type   |
 | :---------- | :---------- | :---------- |
-| ```server-id``` | Identifies the server to which a character object is associated and filters out any character objects not associated with the given server ids. Server ids are 4 digit integers.  | Integer |
-| ```character-name``` | Identifies any number or character objects across all servers that posses the name and filters out any character objects that don't posses the name. Character names are no longer than 32 characters. | String |
+| ```server-id``` | Identifies a set of game servers and filters out character objects that aren't on those servers. You may provide one server id or a comma-separated list of server ids. Server ids are 4 digit integers.  | Integer |
+| ```character-name``` | Identifies all character objects that possess the given name and filters out any character objects that don't possess the name. The maximum character name length is 32 characters. | String |
 
 Example request:
 ```
@@ -201,9 +201,9 @@ Example response:
 Response variable descriptions:
 | Response Item    | Item Description | Data Category | Data Type     |
 | :--------------- | :--------------- | :------------ | :------------ |
-| ```character-id``` | Identifies a specific character object. Each id is totally unique. Whether any two character objects are on the same server or on different servers, no two character objects will have the same id. Character ids are 5-digit integers. | static | Integer |
-| ```character-name``` | Identifies the server to which a character object is associated and filters out any character objects no associated with the given server ids. Server ids are 4 digit integers. | static | String |
-| ```server-id``` | Identifies any number or character objects across all servers that posses the name and filters out any character objects that don't posses the name. Character names are no longer than 32 characters. | static | Integer |
+| ```character-id``` | Identifies a specific character object. Each id is unique. No two character objects (on different servers or on the same server) will have the same id. Character ids are 5-digit integers. | static | Integer |
+| ```server-id``` | Identifies a set of game servers and filters out character objects that aren't on those servers. You may provide one server id or a comma-separated list of server ids. Server ids are 4 digit integers. | static | Integer |
+| ```character-name``` | Identifies all character objects that possess the given name and filters out any character objects that don't possess the name. The maximum character name length is 32 characters. | static | String |
 | ```class``` | Indicates a character's class. Possible values are "sorcerer" and "knight". A character can only have one class. | static | String |
 | ```level``` | Indicates a character's class level. The minimum value is 1, and the maximum value is 60. | semi-static | Integer |
 | ```character-status``` | Indicates if the character is alive or dead. Possible values are "alive" and "dead". | continuous | String |
