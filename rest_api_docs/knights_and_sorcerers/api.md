@@ -35,7 +35,7 @@ Examples of static data:
 #### 1.2.2. Semi-Static
 Semi-static data could change frequently, but it does not change continuously.
 
-Examples of semi-stataic data:
+Examples of semi-static data:
 - server status
 - character achievements
 
