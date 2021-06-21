@@ -20,7 +20,7 @@ Our endpoints build on this base url: ``` https://BASEURL```
 By using the KaS API, you agree to our [terms of service](#overview).  
 
 ### 1.1. Quickstart Guide <a name="quickstartGuide"></a>
-If you are just getting started, see our developer [quickstart guide](#overview). It will walk you through authorization and making your first request.
+If you are just getting started, see our developer [quickstart guide](#overview). It will walk you through authorization and help you make your first request.
 
 ### 1.2. Categories of Resource Data <a name="resourceDataCategories"></a>
 Our endpoints respond with data that we classify in three ways. Data can be static, semi-static, or continuous. 
