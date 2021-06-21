@@ -100,8 +100,8 @@ Path parameters:
 Query string parameters:
 | Parameter   | Description | Data Type   |
 | :---------- | :---------- | :---------- |
-| ```server-name``` | Identifies a server by its name and filters out all servers that do not have the given name. Two servers can only have the same name if they are in different regions. A name will not be longer than 32 characters. | String |
-| ```region-code``` | Idenitifies a geographic location and filters out all servers that are not in the given regions. You may provide one region code or a comma-separated list of region codes. No region code is longer than 5 characters. | String |
+| ```server-name``` | Identifies a server by its name and filters out all servers that do not have the given name. Two servers can only have the same name if they are in different regions. Server names are between 1 and 32 characters long. | String |
+| ```region-code``` | Idenitifies a geographic location and filters out all servers that are not in the given regions. You may provide one region code or a comma-separated list of region codes. Region codes are between 1 and 5 characters long. | String |
 
 Example request:
 ```
@@ -135,7 +135,7 @@ Example response:
   ]
 }
 ```
-**Note:** The real response to our example request would be too long to display. This example response shows only a subset of what you would see.
+**Note:** The real response to our example request would be too long to display. This example shows only a subset of the server objects that you would see in the real response.
 
 Response variable descriptions:
 | Response Item    | Item Description | Data Category | Data Type     |
