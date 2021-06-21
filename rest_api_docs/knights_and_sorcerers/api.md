@@ -203,7 +203,7 @@ Response variable descriptions:
 | :--------------- | :--------------- | :------------ | :------------ |
 | ```character-id``` | Identifies a specific character object. Each id is unique. No two character objects (on different servers or on the same server) will have the same id. Character ids are 5-digits. | static | Integer |
 | ```server-id``` | Identifies a set of game servers and filters out character objects that aren't on those servers. You may provide one server id or a comma-separated list of server ids. Server ids are 4 digits. | static | Integer |
-| ```character-name``` | Identifies all character objects that possess the given name and filters out any character objects that don't possess the name. Maximum character name length is 32 characters. | static | String |
+| ```character-name``` | Identifies all character objects that possess the given name and filters out any character objects that don't possess that name. Maximum character name length is 32 characters. | static | String |
 | ```class``` | Indicates a character's class. Possible values are "sorcerer" and "knight". A character can only have one class. | static | String |
 | ```level``` | Indicates a character's class level. Minimum value is 1, and the maximum value is 60. | semi-static | Integer |
 | ```character-status``` | Indicates if the character is alive or dead. Possible values are "alive" and "dead". | continuous | String |
