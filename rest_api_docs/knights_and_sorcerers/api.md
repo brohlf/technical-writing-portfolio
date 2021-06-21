@@ -170,7 +170,7 @@ Query string parameters:
 
 Example request:
 ```
-curl -H 'Authentication: bearer <your-api-key>' 'https://BASEURL//listcharacters/?character-name=Lushan'
+curl -H 'Authentication: bearer <your-api-key>' 'https://BASEURL/listcharacters/?character-name=Lushan'
 ```
 Example response:
 ```JSON
