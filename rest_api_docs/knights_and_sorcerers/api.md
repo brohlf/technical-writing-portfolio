@@ -68,7 +68,7 @@ curl -H 'Authentication: bearer <your-api-key>' '<baseurl>/<endpoint-path>/'
 
 Authenticating in the query string:
 ```
-curl '<baseurl>/<endpoint-path>/?api-key=<your-api-key>'
+curl '<baseurl>/<endpoint-path>?api-key=<your-api-key>'
 ```  
 
 While we suport both methods, **we recommend** attaching your API key to your request header because doing so is more secure.
