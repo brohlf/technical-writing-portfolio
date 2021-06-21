@@ -148,7 +148,7 @@ Response variable descriptions:
 
 ### 3.2. Characters <a name="characterData"></a>
 
-Character objects contain data about the state of player characters. A character object is associated with one server. The following endpoints provide general and targeted approaches to monitoring player characters.
+Character objects contain data about the state of player characters. Each character object is associated with one server. The following endpoints provide general and targeted approaches to monitoring player characters.
 
 Endpoints:
 ```
