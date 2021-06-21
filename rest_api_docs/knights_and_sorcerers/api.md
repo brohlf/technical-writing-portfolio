@@ -160,7 +160,7 @@ GET /listcharacters/?character-name=<characterName>
 Path parameters:
 | Parameter   | Description | Data Type   |
 | :---------- | :---------- | :---------- |
-| ```character-id``` | Identifies a specific character object. Each id is unique. No two character objects (on different servers or on the same server) will have the same id. Character ids are 5-digit integers. | Integer |
+| ```character-id``` | Identifies a specific character object. Each id is unique. No two character objects (on the same server, or on different servers) will have the same id. Character ids are 5-digit integers. | Integer |
 
 Query string parameters:
 | Parameter   | Description | Data Type   |
