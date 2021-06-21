@@ -95,13 +95,13 @@ GET  /listservers/?server-name=<serverName>
 Path parameters:
 | Parameter   | Description | Data Type   |
 | :---------- | :---------- | :---------- |
-| ```server-id```    | Identifies a single server. Server ids contain 4 digits. | Integer |
+| ```server-id```    | Identifies a single server. Server ids are 4 digits. | Integer |
 
 Query string parameters:
 | Parameter   | Description | Data Type   |
 | :---------- | :---------- | :---------- |
-| ```server-name``` | Identifies a server by its name and filters out all servers that do not have the given name. Two servers can only have the same name if they are in different regions. The maximum length for server names is 32 characters. | String |
-| ```region-code``` | Idenitifies a geographic location and filters out all servers that are not in the given regions. You may provide one region code or a comma-separated list of region codes. The maximum length for region codes is 5 characters. | String |
+| ```server-name``` | Identifies a server by its name and filters out all servers that do not have the given name. Two servers can only have the same name if they are in different regions. Maximum length for server names is 32 characters. | String |
+| ```region-code``` | Idenitifies a geographic location and filters out all servers that are not in the given regions. You may provide one region code or a comma-separated list of region codes. Maximum length for region codes is 5 characters. | String |
 
 Example request:
 ```
@@ -141,8 +141,8 @@ Response variable descriptions:
 | Response Item    | Item Description | Data Category | Data Type     |
 | :--------------- | :--------------- | :------------ | :------------ |
 | ```server-id```         | Identifies a specific server resource. The first digit indicates the server's region, and the following three digits indicate when that server was created. For example, if a server's first digit is "1", that server is in the USA. "Merlin" was our first server, so its last three digits are "001". So, an ```id``` of "1001" and "2001" identify the USA and EU instances of our first server, respectively. | static | Integer |
-| ```server-name```       | Identifies a server by its name. Two servers can only have the same name if they are in different regions. The maximum length for server names is 32 characters. | static | String |
-| ```region-code```| Idenitifies a server's geographic location. The maximum length for region codes is 5 characters. | static | String |
+| ```server-name```       | Identifies a server by its name. Two servers can only have the same name if they are in different regions. Maximum length for server names is 32 characters. | static | String |
+| ```region-code```| Idenitifies a server's geographic location. Maximum length for region codes is 5 characters. | static | String |
 | ```server-status```     | Indicates whether a server is "online", "offline", or "resetting". A resetting server is offline but is expected to come back online shortly. | semi-static | String |
 | ```population``` | Indicates how many active players have characters on this server. An active player is one who has played for at least 10 hours in the past two months. Maximum population per server is 100,000. | continuous | Integer |
 
@@ -160,13 +160,13 @@ GET /listcharacters/?character-name=<characterName>
 Path parameters:
 | Parameter   | Description | Data Type   |
 | :---------- | :---------- | :---------- |
-| ```character-id``` | Identifies a specific character object. Each id is unique. No two character objects (on the same server, or on different servers) will have the same id. Character ids are 5-digit integers. | Integer |
+| ```character-id``` | Identifies a specific character object. Each id is unique. No two character objects (on the same server, or on different servers) will have the same id. Character ids are 5-digits. | Integer |
 
 Query string parameters:
 | Parameter   | Description | Data Type   |
 | :---------- | :---------- | :---------- |
-| ```server-id``` | Identifies a set of game servers and filters out character objects that aren't on those servers. You may provide one server id or a comma-separated list of server ids. Server ids are 4 digit integers.  | Integer |
-| ```character-name``` | Identifies all character objects that possess the given name and filters out any character objects that don't possess the name. The maximum character name length is 32 characters. | String |
+| ```server-id``` | Identifies a set of game servers and filters out character objects that aren't on those servers. You may provide one server id or a comma-separated list of server ids. Server ids are 4 digits.  | Integer |
+| ```character-name``` | Identifies all character objects that possess the given name and filters out any character objects that don't possess the name. Maximum character name length is 32 characters. | String |
 
 Example request:
 ```
@@ -201,10 +201,10 @@ Example response:
 Response variable descriptions:
 | Response Item    | Item Description | Data Category | Data Type     |
 | :--------------- | :--------------- | :------------ | :------------ |
-| ```character-id``` | Identifies a specific character object. Each id is unique. No two character objects (on different servers or on the same server) will have the same id. Character ids are 5-digit integers. | static | Integer |
-| ```server-id``` | Identifies a set of game servers and filters out character objects that aren't on those servers. You may provide one server id or a comma-separated list of server ids. Server ids are 4 digit integers. | static | Integer |
-| ```character-name``` | Identifies all character objects that possess the given name and filters out any character objects that don't possess the name. The maximum character name length is 32 characters. | static | String |
+| ```character-id``` | Identifies a specific character object. Each id is unique. No two character objects (on different servers or on the same server) will have the same id. Character ids are 5-digits. | static | Integer |
+| ```server-id``` | Identifies a set of game servers and filters out character objects that aren't on those servers. You may provide one server id or a comma-separated list of server ids. Server ids are 4 digits. | static | Integer |
+| ```character-name``` | Identifies all character objects that possess the given name and filters out any character objects that don't possess the name. Maximum character name length is 32 characters. | static | String |
 | ```class``` | Indicates a character's class. Possible values are "sorcerer" and "knight". A character can only have one class. | static | String |
-| ```level``` | Indicates a character's class level. The minimum value is 1, and the maximum value is 60. | semi-static | Integer |
+| ```level``` | Indicates a character's class level. Minimum value is 1, and the maximum value is 60. | semi-static | Integer |
 | ```character-status``` | Indicates if the character is alive or dead. Possible values are "alive" and "dead". | continuous | String |
 | ```kills``` | Indicates how many other player characters the character has killed in player vs. player combat. | continuous | Integer |
