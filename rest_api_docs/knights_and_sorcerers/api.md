@@ -88,8 +88,8 @@ Endpoints:
 ```
 GET  /listservers
 GET  /listservers/:server-id
-GET  /listservers/?region-code=<regionCode>
-GET  /listservers/?server-name=<serverName>
+GET  /listservers?region-code=<regionCode>
+GET  /listservers?server-name=<serverName>
 ```
 
 Path parameters:
@@ -153,8 +153,8 @@ Character objects contain data about the state of player characters. Each charac
 Endpoints:
 ```
 GET /listcharacters/:character-id
-GET /listcharacters/?server-id=<serverId>
-GET /listcharacters/?character-name=<characterName>
+GET /listcharacters?server-id=<serverId>
+GET /listcharacters?character-name=<characterName>
 ```
 
 Path parameters:
@@ -170,7 +170,7 @@ Query string parameters:
 
 Example request:
 ```
-curl -H 'Authentication: bearer <your-api-key>' 'https://BASEURL/listcharacters/?character-name=Lushan'
+curl -H 'Authentication: bearer <your-api-key>' 'https://BASEURL/listcharacters?character-name=Lushan'
 ```
 Example response:
 ```JSON
