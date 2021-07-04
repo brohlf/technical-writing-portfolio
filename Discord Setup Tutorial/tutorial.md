@@ -27,8 +27,12 @@ Let's create that server. This will be quick and easy!
 
 ## 2. Create Roles <a name="createRoles"></a>
 
-<!-- create character art and announcements channels too -->
+Let's create a role for GMs, and one for players.
 
+[permissions-gm]: https://github.com/brohlf/technical-writing-portfolio/blob/main/Discord%20Setup%20Tutorial/images/permissions-gm.png
+[permissions-player]: https://github.com/brohlf/technical-writing-portfolio/blob/main/Discord%20Setup%20Tutorial/images/permissions-player.png
 
-
+| gm permissions      | player permissions      |
+:---------------------|-------------------------:
+| ![][permissions-gm] | ![][permissions-player] |
 
