@@ -4,6 +4,7 @@
 - [Introduction](#introduction)
 - [Prerequisites](#prerequisites)
 - [1. Create Your Server](#serverCreation)
+- [1. Create Roles and Channels](#rolesChannels)
 
 ## Introduction <a name="introduction"></a>
 
@@ -23,3 +24,11 @@ Let's create that server. This will be quick and easy!
 ![create-server-example](https://user-images.githubusercontent.com/79812580/124398371-ff59f980-dcda-11eb-8aee-b27b4eb8fe92.gif)
 
 **Note:** Don't worry about server templates for now. They won't help with what we're doing.
+
+## 2. Create Roles <a name="rolesChannels"></a>
+
+<!-- create character art and announcements channels too -->
+
+
+
+
