@@ -68,3 +68,12 @@ Let's create a role for GMs, and one for players.
 you need to grant admin privileges so that Groovy can create a role for itself. But, once it's done that, you should revoke admin privileges.
 <img width="544" alt="grant-admin-privilages" src="https://user-images.githubusercontent.com/79812580/124402044-27eded80-dcf3-11eb-8891-b670f6644e57.png">
 
+
+<img width="1549" alt="groovy-joined-confirmation" src="https://user-images.githubusercontent.com/79812580/124402134-c24e3100-dcf3-11eb-94aa-7fba493e562b.png">
+
+<img width="707" alt="groovy-role-confirmation" src="https://user-images.githubusercontent.com/79812580/124402138-cc702f80-dcf3-11eb-979d-4fbbd297e0c3.png">
+
+
+<img width="584" alt="groovy-role-display" src="https://user-images.githubusercontent.com/79812580/124402140-ced28980-dcf3-11eb-833e-1cc6b8ee0952.png">
+
+
