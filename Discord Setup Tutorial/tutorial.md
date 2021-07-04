@@ -58,3 +58,11 @@ Let's create a role for GMs, and one for players.
 ## 4. Get Your Music Bot <a name="inviteGroovy"></a>
 
 [Groovy Bot](https://groovy.bot/)
+
+<img width="495" alt="permissions-groovy" src="https://user-images.githubusercontent.com/79812580/124401866-c5e0b880-dcf1-11eb-8e45-f45c17c6685b.png">
+
+<img width="1411" alt="add-to-discord-button" src="https://user-images.githubusercontent.com/79812580/124402080-65527b00-dcf3-11eb-82cf-daa5d459d8b8.png">
+
+you need to grant admin privileges so that Groovy can create a role for itself. But, once it's done that, you should revoke admin privileges.
+<img width="544" alt="grant-admin-privilages" src="https://user-images.githubusercontent.com/79812580/124402044-27eded80-dcf3-11eb-8891-b670f6644e57.png">
+
