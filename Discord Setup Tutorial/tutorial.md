@@ -56,3 +56,5 @@ Let's create a role for GMs, and one for players.
 <img width="332" alt="groovy-success" src="https://user-images.githubusercontent.com/79812580/124401345-8a90ba80-dcee-11eb-9f6d-b832a8aba2a7.png">
 
 ## 4. Get Your Music Bot <a name="inviteGroovy"></a>
+
+[Groovy Bot](https://groovy.bot/)
