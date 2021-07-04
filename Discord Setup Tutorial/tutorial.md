@@ -63,6 +63,8 @@ Let's create a role for GMs, and one for players.
 
 <img width="1411" alt="add-to-discord-button" src="https://user-images.githubusercontent.com/79812580/124402080-65527b00-dcf3-11eb-82cf-daa5d459d8b8.png">
 
+<img width="632" alt="choose-a-server" src="https://user-images.githubusercontent.com/79812580/124402112-9fbc1800-dcf3-11eb-879a-48c0b1496440.png">
+
 you need to grant admin privileges so that Groovy can create a role for itself. But, once it's done that, you should revoke admin privileges.
 <img width="544" alt="grant-admin-privilages" src="https://user-images.githubusercontent.com/79812580/124402044-27eded80-dcf3-11eb-8891-b670f6644e57.png">
 
