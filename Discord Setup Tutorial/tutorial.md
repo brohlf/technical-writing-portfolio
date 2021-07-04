@@ -18,5 +18,8 @@ If you're configuring a server that you don't own, you'll need the *Manage Serve
 ## 1. Create Your Server <a name="serverCreation"></a>
 Let's create that server. This will be quick and easy!
 
+**Follow along** with the .gif below.
+
 ![create-server-example](https://user-images.githubusercontent.com/79812580/124398371-ff59f980-dcda-11eb-8aee-b27b4eb8fe92.gif)
 
+**Note:** Don't worry about server templates for now. They won't help with what we're doing.
