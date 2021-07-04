@@ -43,3 +43,7 @@ Let's create a role for GMs, and one for players.
 :---------------------|-------------------------:
 | ![][permissions-gm] | ![][permissions-player] |
 
+
+<img width="1549" alt="assign-roles" src="https://user-images.githubusercontent.com/79812580/124401107-42bd6380-dced-11eb-8c0c-9339bfb553d7.png">
+
+
