@@ -3,7 +3,7 @@
 ## Contents
 - [Introduction](#introduction)
 - [Prerequisites](#prerequisites)
-- [Create Your Server](#serverCreation)
+- [1. Create Your Server](#serverCreation)
 
 ## Introduction <a name="introduction"></a>
 
