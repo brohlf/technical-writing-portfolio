@@ -29,6 +29,10 @@ Let's create that server. This will be quick and easy!
 
 ![create-role](https://user-images.githubusercontent.com/79812580/124400490-68943980-dce8-11eb-84fa-e4e7c3848169.gif)
 
+Repeat this process to create a "Player" role.
+
+![navigate-permissions](https://user-images.githubusercontent.com/79812580/124401060-c7f44880-dcec-11eb-835b-a011212ad3a6.gif)
+
 
 Let's create a role for GMs, and one for players.
 
