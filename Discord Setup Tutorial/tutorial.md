@@ -47,3 +47,7 @@ Let's create a role for GMs, and one for players.
 <img width="1549" alt="assign-roles" src="https://user-images.githubusercontent.com/79812580/124401107-42bd6380-dced-11eb-8c0c-9339bfb553d7.png">
 
 
+<img width="446" alt="create-channel-button" src="https://user-images.githubusercontent.com/79812580/124401343-85337000-dcee-11eb-97c0-5590670978bf.png">
+
+
+<img width="332" alt="groovy-success" src="https://user-images.githubusercontent.com/79812580/124401345-8a90ba80-dcee-11eb-9f6d-b832a8aba2a7.png">
