@@ -7,6 +7,8 @@
 
 ## Introduction <a name="introduction"></a>
 
+<img width="1573" alt="landing-page" src="https://user-images.githubusercontent.com/79812580/124397536-f1ee4080-dcd5-11eb-9dbf-b870e307cd10.png">
+
 ## Prerequisites <a name="prerequisites"></a>
 You need to have the Discord app installed, and you need to have an account. If you need assistance with either of these steps, consult Discord's guide to [Getting Started](https://support.discord.com/hc/en-us/articles/360033931551-Getting-Started). That process will only take a few minutes.
 
@@ -16,3 +18,5 @@ If you're configuring a server that you don't own, you'll need the *Manage Serve
 
 ## 1. Create Your Server <a name="serverCreation"></a>
 Let's create that server. This will be quick and easy!
+
+
