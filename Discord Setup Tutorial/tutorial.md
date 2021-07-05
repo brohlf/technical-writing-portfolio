@@ -59,11 +59,33 @@ We won't go into detail, explaining what all of these permissions do. Basically,
 
 
 ## 3. Create Your Channels <a name="createChannels"></a>
+Now that we have your roles created, let's create some channels! You'll need a text channel for communicating with your Groovy bot, and you'll need an additional voice channel for speaking with individual players privately during games.
+
+Just to the right of "TEXT CHANNELS", click on the plus icon, shown below.
 
 <img width="446" alt="create-channel-button" src="https://user-images.githubusercontent.com/79812580/124401343-85337000-dcee-11eb-97c0-5590670978bf.png">
 
+You should then see this popup. Make sure the channels isn't private. Click "Create Channel."
 
-<img width="332" alt="groovy-success" src="https://user-images.githubusercontent.com/79812580/124401345-8a90ba80-dcee-11eb-9f6d-b832a8aba2a7.png">
+<img width="500" alt="new-channel-popup" src="https://user-images.githubusercontent.com/79812580/124408873-cd618b00-dd0c-11eb-8d32-cd20e91f0bbb.png">
+
+Repeat that process to create a new voice channel for private chats with players during games.
+
+You can also rename that general voice channel by navigating to it's "edit channel" page. Click on the gear icon to the right of the channel name.
+
+<img width="341" alt="edit-channel" src="https://user-images.githubusercontent.com/79812580/124409763-8e343980-dd0e-11eb-8c10-8f0669fd387c.png">
+
+Once you've made you're change, clikc on the green "Save Changes" button that will pop up at the bottom of the page.
+<img width="738" alt="save-changes" src="https://user-images.githubusercontent.com/79812580/124409771-942a1a80-dd0e-11eb-84ed-c42bfc046444.png">
+
+Then, you can edit the channel name.
+<img width="1055" alt="server-name-change" src="https://user-images.githubusercontent.com/79812580/124409898-e5d2a500-dd0e-11eb-91c4-3751f7b5d844.png">
+
+When you're should then see these two new channels!
+
+<img width="324" alt="new-channels" src="https://user-images.githubusercontent.com/79812580/124408807-a3a86400-dd0c-11eb-8f64-e0267c51f393.png">
+
+
 
 ## 4. Get Your Music Bot <a name="inviteGroovy"></a>
 
