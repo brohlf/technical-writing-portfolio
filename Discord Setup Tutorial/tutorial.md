@@ -45,15 +45,33 @@ If you're configuring a server that you don't own, you'll need the *Manage Serve
 ## 1. Create Your Server <a name="serverCreation"></a>
 Time to create your server. This is where you will be hosting your games. It'll be a bit lonely at first, but soon it will be full of friends! 
 
-**Follow along** - this will be quick and easy!
+**Follow these** steps to create your server:
+<ol>
+  <li>
+    Click on the "Add a Server" button, represented by a plus icon on left-side menu bar
+  </li>
+  <li>
+    Select "Create My Own
+  </li>
+  <li>
+    Select "For me and my friends"
+    <ul>
+      <li>
+        Don't worry about server templates for now. They won't help with what we're doing
+      </li>
+    </ul>
+  </li>
+  <li>
+    Give your server a name a click "Create"
+  </li>
+</ol>
+
+**Fig.1** shows what that process looks like.
 
 <p align="center">
   <img src="./images/create-server-example.gif" alt="">
   <b>Fig.1 - Server Creation</b>
 </p>
-
-**Note:** Don't worry about server templates for now. They won't help with what we're doing.
-
 
 ## 2. Create Your User Roles <a name="createRoles"></a>
 Let's navigate into your server settings and create some user roles. We'll make one for GMs, and one for players. Later, there will be one for your music bot too. Roles enable you to create profiles of server permissions. Permissions determine how much freedom and control user have in your server. As the owner of this server, you permanently have administrator permissions - they can't be taken away from you, even by others with administrator privileges. Ownership is not a role. We'll deal with both roles and permissions in this section.
