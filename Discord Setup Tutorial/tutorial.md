@@ -16,7 +16,7 @@ If you're a game master (GM) and you're running tableop roleplaying games (TTRPG
 Discord is the most popular tool in the TTRPG space for hosting a gaming community, or even a fanbase. While some of its
 essential features can be found on virtual tabletops (VTTs), like Roll20, both Discord's UI and the quality of its services
 are superior to what is offered by available VTTs. It's also much more convenient for your community to interact through Discord
-than through a VTT, or even through other chat focused apps like Zoom or Teams.
+than through a VTT, or even through other chat-focused apps like Zoom or Teams.
 
 Discord servers are free spaces that provide text, voice, and video chat features. This guide will help you quickly create a a well organized, ready to scale, and invite-only server with a music bot that
 you can use to add atmosphere to your games. By the end, you'll also be familiar with all of the essential features of the app.
