@@ -76,15 +76,22 @@ Time to create your server! This is where you will be hosting your games. It'll 
 Now, let's create two new channels for your server. You'll want a text channel to communicate with your music bot. And you'll also want a second voice channel (these also have video chat capalities) so you can pull players aside for private chats during games.
 
 ### 2.1 Channel Creation
-Just to the right of "TEXT CHANNELS", click on the plus icon, shown below.
+**Follow these steps** to create a new text channel:
+<ol>
+  <li>
+    Just to the right of "TEXT CHANNELS", click on the plus icon - shown below
+  </li>
+  <li>
+    You should then see this popup. Make sure the channels isn't private. Click "Create Channel"
+  </li>
+  <li>
+    Repeat that process to create a new voice channel for private chats with players during games.
+  </li>
+</ol>
 
 <img width="446" alt="create-channel-button" src="https://user-images.githubusercontent.com/79812580/124401343-85337000-dcee-11eb-97c0-5590670978bf.png">
 
-You should then see this popup. Make sure the channels isn't private. Click "Create Channel."
-<!-- might be able to remove this, but be sure to expand description -->
 <img width="500" alt="new-channel-popup" src="https://user-images.githubusercontent.com/79812580/124408873-cd618b00-dd0c-11eb-8d32-cd20e91f0bbb.png">
-
-Repeat that process to create a new voice channel for private chats with players during games.
 
 ### 2.2 Renaming Channels
 You can also rename that general voice channel by navigating to it's "edit channel" page. Click on the gear icon to the right of the channel name.
