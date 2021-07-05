@@ -18,7 +18,7 @@ essential features can be found on virtual tabletops (VTTs), like Roll20, both D
 are superior to what is offered by available VTTs. It's also much more convenient for your community to interact through Discord
 than through a VTT, or even through other chat focused apps like Zoom or Teams.
 
-Discord servers are free spaces that provide text, voice, and video chat features. Servers are easy to create, but harnassing their potential can
+Discord servers are free spaces that provide text, voice, and video chat features. Servers are easy to create, but harnessing their potential can
 be a bit intimidating. Your job is already hard enough, and all the time you spend wrangling technology is time you
 aren't focusing on the game.
 
