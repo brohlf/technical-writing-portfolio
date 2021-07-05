@@ -123,3 +123,5 @@ you'r most frequently used commands will be /play, /pause, /unpause, and /clear
 Groovy isn't the only helpful bot! If you aren't using a VTT, but you need a way to roll dice, you can do that right in your server! Invite the "Avrae" bot and create another channel for dice rolling.
 
 As cool as Groovy is, you will eventually want to get some of your real friends into the server. If you need some help with that, follow this short guide to inviting your friends: [inviting friends](https://support.discord.com/hc/en-us/articles/204155938-How-do-I-invite-friends-to-my-server-)
+
+As your community grows, you will need to add more roles, more bots to moderate your users, and more channels.
