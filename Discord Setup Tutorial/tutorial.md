@@ -11,19 +11,28 @@
 
 
 ## Introduction <a name="introduction"></a>
-Discord is the most popular application in the ttrpg community for building and engagin with community. Your community might be you and just a few of your friends, or it might be an entire fanbase of hundreds or even thousands of people.
+Read time: about 25 minutes
 
-This setup guide is indended for GMs that need to get a server setup quickly. If you've got a game coming up in 30 minutes and you need a voice or video chat platform with text channels and bot capalities, read on.
+If you're a game master (GM) and you're running virtual tableop roleplaying games (ttrpgs), you need a Discord server.
+Discord is the most popular tool in the ttrpg space for hosting a gaming community, or even a fanbase. Servers are free
+spaces that provide text, voice, and video chat features. They are easy to create, but harnassing their potential can
+be a bit intimidating. But, your job is already hard enough. And, all the time you spend wrangling technology is time
+you aren't focusing on the game.
 
-This guide will take you through the basic functionality of Discord (which is all that you will need), as well as a few gotchas (to save you troubleshooting time if things go wrong during your game), but it is not an in depth discussion of the app.
+This guide will do help you get you familiar with all of the essential features of Discord. By the end, you will have
+a well organized, ready to scale, and invite-only server with a music bot that you can use to add atmosphere to your games.
+The best part is that you won't have to go reading about anything in depth. This will be quick and easy!
 
-Discord is particularly interesting because of its thriving bot market. There are a myriad of bots that extend the functinality of Discord, making some things possible, and other things easier. After we get your server set up, we'll add a music bot to it - Groovy. Music is an essential tool for getting and keeping your players engaged in your game. It will add an emotional element. At the end, you'll find a recommendation for another bot that will enable your players to roll dice in your text chat.
+**Note:**
+This is a tutorial. It does not discuss the features of Discord in depth. Although it does touch on a few gotchas so that you aren;t caught off gaurd in the middle of a game session. For an in depth explanation of what discord is, click [here](https://discord.com/safety/360044149331-What-is-Discord)
 
-Discord is incredibly simple to use. And it's free!
+First, we'll create your server. Then, we'll create a new text channel specifically for communicating with your music bot and a new voice channel
+for private chats with players during your games. Then, we'll create some user roles for GMs and Players. Once we have those, we will confiure server
+and channel specific permissions for thsoe roles. Roles are essential to maintaining a well organized and stable server. As you begin scaling
+your community and adding features to your server, you will need more complex roles and permissions. But that's not what this guide is about. At the
+end, you'll find a recommendation for a dice rolling bot.
 
-This guide takes a "do this now and learn about it later" approach. Like math class, but more fun.
-
-You'll be ready to go with a feature rich place to host games in about 30 minutes!
+Let's get going!
 
 ## Prerequisites <a name="prerequisites"></a>
 You need to have the Discord app installed, and you need to have an account. If you need assistance with either of these steps, consult Discord's guide to [Getting Started](https://support.discord.com/hc/en-us/articles/360033931551-Getting-Started). That process will only take a few minutes.
