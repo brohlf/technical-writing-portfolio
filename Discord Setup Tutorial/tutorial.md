@@ -30,11 +30,11 @@ Note: this is a tutorial. It does not discuss the features of Discord in depth. 
       gaurd in the middle of a game session. For an in depth explanation of what Discord is, click [here](https://discord.com/safety/360044149331-What-is-Discord)
 
 First, we'll create your server. Then, we'll create a new text channel specifically for communicating with your music bot and a new voice channel
-for private chats with players during your games. Then, we'll create some user roles for GMs and Players. Once we have those, we will configure server
+for private chats with players during your games. Then, we'll create some user roles for GMs and Players. Once we have those, we'll configure server
 and channel-specific permissions for those roles. Roles are essential to maintaining a well-organized and stable server. As you begin scaling
 your community and adding features to your server, you will need more complex roles and permissions. But that's not what this guide is about. In the last section, you'll find a recommendation for a dice rolling bot.
 
-This take about 25 minutes. Let's get going!
+This will take about 25 minutes. Let's get going!
 
 ## Prerequisites <a name="prerequisites"></a>
 You need to have the Discord app installed, and you need to have an account. If you need assistance with either of these steps, consult Discord's guide to [Getting Started](https://support.discord.com/hc/en-us/articles/360033931551-Getting-Started). That process will only take a few minutes.
