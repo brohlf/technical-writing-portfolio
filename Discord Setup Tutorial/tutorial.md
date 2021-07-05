@@ -122,6 +122,9 @@ You will see a list of permissions each with an x, a slash, and a check next to 
 - c: explicitly allow this permission for this server
 <img width="343" alt="channel-permission-explanation" src="https://user-images.githubusercontent.com/79812580/124403397-da29b300-dcfb-11eb-8982-8b3f703b383c.png">
 
+Explicitly deny all permissions to Groovy in the general channel.
+
+Explictly give players permission to view the channel and to read text history in the Groovy channel.
 
 [Groovy Commands](https://groovy.bot/commands)
 
