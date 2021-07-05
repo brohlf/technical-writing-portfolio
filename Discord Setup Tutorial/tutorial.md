@@ -152,7 +152,8 @@ We won't go into detail, explaining what all of these permissions do. Basically,
 
 ## 4. Get Your Music Bot <a name="inviteGroovy"></a>
 
-Groovy bot is one the most popular music bots for Discord. Music support from VTTs is unreliable, so if you want music in your game, you should have a music bot as backup. This one is especially convenient because all you need to do is give it a link to a youtube or spotify song or playlist and it will do the rest. Bots join your server and behave as members just like people do. The difference is that you communicate with and configure them using text commands. We will confine the groovy bot to the "groovy" channel, so it won't hear any commands entered into the "general" chat. We will also restrict players from typing inthe "groovy" channel. DMs should have exclusive control over the music in their games. Groovy will join you whichever voice channel you are in when you issue a command. It will play music through voice chat just like your players use itto speak. When it's left idle for a while, it will automatically leave voice chat. You cna;t force it to leave.
+Groovy bot is one the most popular music bots for Discord. Music support from VTTs is unreliable, so if you want music in your game, you should have a music bot as backup. We will confine Groovy to a single channel so that it won't clutter your chat. You also don't want just anyone controlling it. DMs should have exclusive control over
+the music in their games. So we'll make sure of that too.
 
 ### 4.1. Invite Groovy Bot
 
