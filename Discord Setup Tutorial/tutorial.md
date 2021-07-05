@@ -120,7 +120,7 @@ Before we move on to configuring permissions, you need to know how to assign rol
 
 <img width="1549" alt="assign-roles" src="https://user-images.githubusercontent.com/79812580/124401107-42bd6380-dced-11eb-8c0c-9339bfb553d7.png">
 
-### 3.2. Permissions
+### 3.2. Server Permissions
 
 **Follow along** - let's navigate to the permissions tab
 ![navigate-permissions](https://user-images.githubusercontent.com/79812580/124401060-c7f44880-dcec-11eb-835b-a011212ad3a6.gif)
