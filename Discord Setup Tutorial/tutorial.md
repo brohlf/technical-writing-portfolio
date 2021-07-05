@@ -29,15 +29,26 @@ Time to create your server. This is where you will be hosting your games. It'll 
 **Note:** Don't worry about server templates for now. They won't help with what we're doing.
 
 ## 2. Create Your User Roles <a name="createRoles"></a>
+Let's navigate into your server settings and create some user roles. We'll make one for GMs, and one for players. Later, there will be one for your music bot too. Roles enable you to create profiles of server permissions. Permissions determine how much freedom and control user have in your server. As the owner of this server, you permanently have administrator permissions - they can't be taken away from you, even by others with administrator privileges. Ownership is not a role. We'll deal with both roles and permissions in this section.
 
+### 2.1. Roles
+
+**Follow along** - let's start with a role for GMs.
 ![create-role](https://user-images.githubusercontent.com/79812580/124400490-68943980-dce8-11eb-84fa-e4e7c3848169.gif)
 
 Repeat this process to create a "Player" role.
 
+#### 2.2.1 Assigning Roles
+Before we move on to configuring permissions, you need to know how to assign roles. Just right click on a user's name and navigate to the roles options.
+
+<img width="1549" alt="assign-roles" src="https://user-images.githubusercontent.com/79812580/124401107-42bd6380-dced-11eb-8c0c-9339bfb553d7.png">
+
+### 2.2. Permissions
+
+**Follow along** - let's navigate to the permissions tab
 ![navigate-permissions](https://user-images.githubusercontent.com/79812580/124401060-c7f44880-dcec-11eb-835b-a011212ad3a6.gif)
 
-
-Let's create a role for GMs, and one for players.
+We won't go into detail, explaining what all of these permissions do. Basically, players need the ability to move around and speak in your social channels. And GMs need the ability to speak over people, mute people, move players around, and even kick or ban players that are causing problems. Just make sure that you configure your GM and Player permissions to look like this.
 
 [permissions-gm]: https://github.com/brohlf/technical-writing-portfolio/blob/main/Discord%20Setup%20Tutorial/images/permissions-gm.png
 [permissions-players]: https://github.com/brohlf/technical-writing-portfolio/blob/main/Discord%20Setup%20Tutorial/images/permissions-players.png
@@ -46,8 +57,6 @@ Let's create a role for GMs, and one for players.
 :---------------------|-------------------------:
 | ![][permissions-gm] | ![][permissions-players] |
 
-
-<img width="1549" alt="assign-roles" src="https://user-images.githubusercontent.com/79812580/124401107-42bd6380-dced-11eb-8c0c-9339bfb553d7.png">
 
 ## 3. Create Your Channels <a name="createChannels"></a>
 
