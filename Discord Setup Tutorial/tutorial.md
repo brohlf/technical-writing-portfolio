@@ -1,4 +1,3 @@
-<img width="740" alt="groovy-channel-player-permissions" src="https://user-images.githubusercontent.com/79812580/124403435-10673280-dcfc-11eb-906b-1837bd2bbcd7.png">
 # Discord Setup for Dungeons & Dragons
 
 ## Contents
