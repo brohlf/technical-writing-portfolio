@@ -19,9 +19,9 @@ System requirements can be found [here](https://support.discord.com/hc/en-us/art
 If you're configuring a server that you don't own, you'll need the *Manage Server* permission on that server. Otherwise, no experience with Discord beyond installation and account creation is necessary.
 
 ## 1. Create Your Server <a name="serverCreation"></a>
-Let's create that server. This will be quick and easy!
+Time to create your server.
 
-**Follow along** with the .gif below.
+**Follow along** - this will be quick and easy!
 
 ![create-server-example](https://user-images.githubusercontent.com/79812580/124398371-ff59f980-dcda-11eb-8aee-b27b4eb8fe92.gif)
 
