@@ -74,9 +74,6 @@ you need to grant admin privileges so that Groovy can create a role for itself. 
 <img width="707" alt="groovy-role-confirmation" src="https://user-images.githubusercontent.com/79812580/124402138-cc702f80-dcf3-11eb-979d-4fbbd297e0c3.png">
 
 
-<img width="584" alt="groovy-role-display" src="https://user-images.githubusercontent.com/79812580/124402140-ced28980-dcf3-11eb-833e-1cc6b8ee0952.png">
-
-
 
 ![navigate-channel-permissions](https://user-images.githubusercontent.com/79812580/124403395-d7c75900-dcfb-11eb-8671-35882ed5976e.gif)
 
