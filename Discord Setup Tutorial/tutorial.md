@@ -45,13 +45,13 @@ If you're configuring a server that you don't own, you'll need the *Manage Serve
 ## 1. Create Your Server <a name="serverCreation"></a>
 Time to create your server! This is where you will be hosting your games. It'll be a bit lonely at first, but soon it will be full of friends! 
 
-**Follow these** steps to create your server:
+**Follow these steps** to create your server:
 <ol>
   <li>
     Click on the "Add a Server" button, represented by a plus icon on left-side menu bar
   </li>
   <li>
-    Select "Create My Own
+    Select "Create My Own"
   </li>
   <li>
     Select "For me and my friends"
