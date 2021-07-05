@@ -9,7 +9,9 @@
 - [4. Get Your Music Bot](#inviteGroovy)
 - [5. Next Steps](#nextSteps)
 
+
 ## Introduction <a name="introduction"></a>
+
 
 
 ## Prerequisites <a name="prerequisites"></a>
@@ -19,6 +21,7 @@ System requirements can be found [here](https://support.discord.com/hc/en-us/art
 
 If you're configuring a server that you don't own, you'll need the *Manage Server* permission on that server. Otherwise, no experience with Discord beyond installation and account creation is necessary.
 
+
 ## 1. Create Your Server <a name="serverCreation"></a>
 Time to create your server. This is where you will be hosting your games. It'll be a bit lonely at first, but soon it will be full of friends! 
 
@@ -27,6 +30,7 @@ Time to create your server. This is where you will be hosting your games. It'll 
 ![create-server-example](https://user-images.githubusercontent.com/79812580/124398371-ff59f980-dcda-11eb-8aee-b27b4eb8fe92.gif)
 
 **Note:** Don't worry about server templates for now. They won't help with what we're doing.
+
 
 ## 2. Create Your User Roles <a name="createRoles"></a>
 Let's navigate into your server settings and create some user roles. We'll make one for GMs, and one for players. Later, there will be one for your music bot too. Roles enable you to create profiles of server permissions. Permissions determine how much freedom and control user have in your server. As the owner of this server, you permanently have administrator permissions - they can't be taken away from you, even by others with administrator privileges. Ownership is not a role. We'll deal with both roles and permissions in this section.
@@ -58,6 +62,7 @@ We won't go into detail, explaining what all of these permissions do. Basically,
 | ![][permissions-gm] | ![][permissions-players] |
 
 
+
 ## 3. Create Your Channels <a name="createChannels"></a>
 Now that we have your roles created, let's create some channels! You'll need a text channel for communicating with your Groovy bot, and you'll need an additional voice channel for speaking with individual players privately during games.
 
@@ -66,7 +71,7 @@ Just to the right of "TEXT CHANNELS", click on the plus icon, shown below.
 <img width="446" alt="create-channel-button" src="https://user-images.githubusercontent.com/79812580/124401343-85337000-dcee-11eb-97c0-5590670978bf.png">
 
 You should then see this popup. Make sure the channels isn't private. Click "Create Channel."
-
+<!-- might be able to remove this, but be sure to expand description -->
 <img width="500" alt="new-channel-popup" src="https://user-images.githubusercontent.com/79812580/124408873-cd618b00-dd0c-11eb-8d32-cd20e91f0bbb.png">
 
 Repeat that process to create a new voice channel for private chats with players during games.
@@ -76,15 +81,12 @@ You can also rename that general voice channel by navigating to it's "edit chann
 <img width="341" alt="edit-channel" src="https://user-images.githubusercontent.com/79812580/124409763-8e343980-dd0e-11eb-8c10-8f0669fd387c.png">
 
 Once you've made you're change, clikc on the green "Save Changes" button that will pop up at the bottom of the page.
-<img width="738" alt="save-changes" src="https://user-images.githubusercontent.com/79812580/124409771-942a1a80-dd0e-11eb-84ed-c42bfc046444.png">
 
 Then, you can edit the channel name.
-<img width="1055" alt="server-name-change" src="https://user-images.githubusercontent.com/79812580/124409898-e5d2a500-dd0e-11eb-91c4-3751f7b5d844.png">
 
 When you're should then see these two new channels!
 
 <img width="324" alt="new-channels" src="https://user-images.githubusercontent.com/79812580/124408807-a3a86400-dd0c-11eb-8f64-e0267c51f393.png">
-
 
 
 ## 4. Get Your Music Bot <a name="inviteGroovy"></a>
