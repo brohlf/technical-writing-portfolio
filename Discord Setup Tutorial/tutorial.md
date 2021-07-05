@@ -22,7 +22,7 @@ Discord servers are free spaces that provide text, voice, and video chat feature
 you can use to add atmosphere to your games. By the end, you'll also be familiar with all of the essential features of the app.
 The best part is that you won't have to go reading about anything in depth.
 
-Note: this is a tutorial. It does not discuss the features of Discord in depth. However, it does touch on a few gotchas so you aren't caught off
+**Note:** this is a tutorial. It does not discuss the features of Discord in depth. However, it does touch on a few gotchas so you aren't caught off
       guard in the middle of a game session. For an in-depth explanation of what Discord is, click [here](https://discord.com/safety/360044149331-What-is-Discord)
 
 First, we'll create your server. Then, we'll create a new text channel specifically for communicating with your music bot and a new voice channel
