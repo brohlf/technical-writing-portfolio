@@ -1,1 +1,1 @@
-# This portfolio piece is under construction
+# This portfolio piece is still in development.
