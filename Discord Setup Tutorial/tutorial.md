@@ -39,11 +39,11 @@ Repeat this process to create a "Player" role.
 Let's create a role for GMs, and one for players.
 
 [permissions-gm]: https://github.com/brohlf/technical-writing-portfolio/blob/main/Discord%20Setup%20Tutorial/images/permissions-gm.png
-[permissions-player]: https://github.com/brohlf/technical-writing-portfolio/blob/main/Discord%20Setup%20Tutorial/images/permissions-player.png
+[permissions-players]: https://github.com/brohlf/technical-writing-portfolio/blob/main/Discord%20Setup%20Tutorial/images/permissions-players.png
 
 | gm permissions      | player permissions      |
 :---------------------|-------------------------:
-| ![][permissions-gm] | ![][permissions-player] |
+| ![][permissions-gm] | ![][permissions-players] |
 
 
 <img width="1549" alt="assign-roles" src="https://user-images.githubusercontent.com/79812580/124401107-42bd6380-dced-11eb-8c0c-9339bfb553d7.png">
