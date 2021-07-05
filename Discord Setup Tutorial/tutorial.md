@@ -86,3 +86,7 @@ you need to grant admin privileges so that Groovy can create a role for itself. 
 <img width="720" alt="general-channel-groovy-permissions" src="https://user-images.githubusercontent.com/79812580/124403405-e31a8480-dcfb-11eb-9b95-c59def667ff0.png">
 
 [Groovy Commands](https://groovy.bot/commands)
+
+
+when you pause groovy, you need to explicitly unpause it. Using the play command again won't work.
+you'r most frequently used commands will be /play, /pause, /unpause, and /clear
