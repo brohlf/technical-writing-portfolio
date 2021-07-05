@@ -7,6 +7,7 @@
 - [2. Create Your User Roles](#createRoles)
 - [3. Create Your Channels](#createChannels)
 - [4. Get Your Music Bot](#inviteGroovy)
+- [5. Next Steps](#nextSteps)
 
 ## Introduction <a name="introduction"></a>
 
@@ -90,3 +91,8 @@ you need to grant admin privileges so that Groovy can create a role for itself. 
 
 when you pause groovy, you need to explicitly unpause it. Using the play command again won't work.
 you'r most frequently used commands will be /play, /pause, /unpause, and /clear
+
+
+## 5. Next Steps <a name="nextSteps"></a>
+avrae dice rolling bot
+inviting friends
