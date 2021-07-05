@@ -96,9 +96,7 @@ This will navigate you to a panel that contains a dropdown menu titled "ADD TO S
 At this point, you should see this panel. You need to grant admin privileges so that Groovy can create a role for itself. But, once it's done that, you should revoke admin privileges. Click "Authorize."
 <img width="544" alt="grant-admin-privilages" src="https://user-images.githubusercontent.com/79812580/124402044-27eded80-dcf3-11eb-8891-b670f6644e57.png">
 
-Now, you should see a new member in your chat! This is groovy bot. But Groovy doesn;t need those admin privileges anymore. Navigate to your list of server roles in server settings. You should see a new role for Groovy. Navigate to the permissions tabs for the "Groovy" role and configure its permissions to match the following.
-
-<img width="495" alt="permissions-groovy" src="https://user-images.githubusercontent.com/79812580/124401866-c5e0b880-dcf1-11eb-8e45-f45c17c6685b.png">
+Now, you should see a new member in your chat! This is groovy bot. But Groovy doesn;t need those admin privileges anymore. Navigate to your list of server roles in server settings. You should see a new role for Groovy. Navigate to the permissions tabs for the "Groovy" role and configure its permissions to match the [following](https://github.com/brohlf/technical-writing-portfolio/blob/main/Discord%20Setup%20Tutorial/Permission%20Configurations/groovy-configs.md).
 
 Now let's restrict Groovy from seeing anything that happens in the "general" text channel. Navigate to the channel settings by clicking on the gear icon to the right of the channel name. We'll modify Groovy's permissions for this specific channel. You'll have to add the groovy role to the list of roles tracked by this channel. At first, you should only see the "@Everyone" role. 
 
