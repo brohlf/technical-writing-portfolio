@@ -128,4 +128,4 @@ you'r most frequently used commands will be /play, /pause, /unpause, and /clear
 
 ## 5. Next Steps <a name="nextSteps"></a>
 avrae dice rolling bot
-inviting friends
+[inviting friends](https://support.discord.com/hc/en-us/articles/204155938-How-do-I-invite-friends-to-my-server-)
