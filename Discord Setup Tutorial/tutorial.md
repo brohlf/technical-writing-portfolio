@@ -95,21 +95,29 @@ Groovy bot is one the most popular music bots for Discord. Music support from VT
 
 ### 4.1. Invite Groovy Bot
 
-Click the following link to download [Groovy Bot](https://groovy.bot/).
+Click the following link to download [Groovy Bot](https://groovy.bot/). Click "Add to Discord" to begin the invititation process.
 
 <img width="1411" alt="add-to-discord-button" src="https://user-images.githubusercontent.com/79812580/124402080-65527b00-dcf3-11eb-82cf-daa5d459d8b8.png">
 
+This will navigate you to a panel that contains a dropdown menu titled "ADD TO SERVER." Select your server name and click continue. You may also need to login.
 
-you need to grant admin privileges so that Groovy can create a role for itself. But, once it's done that, you should revoke admin privileges.
+At this point, you should see this panel. You need to grant admin privileges so that Groovy can create a role for itself. But, once it's done that, you should revoke admin privileges. Click "Authorize."
 <img width="544" alt="grant-admin-privilages" src="https://user-images.githubusercontent.com/79812580/124402044-27eded80-dcf3-11eb-8891-b670f6644e57.png">
+
+Now, you should see a new member in your chat! This is groovy bot. But Groovy doesn;t need those admin privileges anymore. Navigate to your list of server roles in server settings. You should see a new role for Groovy. Navigate to the permissions tabs for the "Groovy" role and configure its permissions to match the following.
 
 <img width="495" alt="permissions-groovy" src="https://user-images.githubusercontent.com/79812580/124401866-c5e0b880-dcf1-11eb-8e45-f45c17c6685b.png">
 
+Now let's restrict Groovy from seeing anything that happens in the "general" text channel. Navigate to the channel settings by clicking on the gear icon to the right of the channel name. We'll modify Groovy's permissions for this specific channel. You'll have to add the groovy role to the list of roles tracked by this channel. At first, you should only see the "@Everyone" role. 
+
+**Follow along**
 ![navigate-channel-permissions](https://user-images.githubusercontent.com/79812580/124403395-d7c75900-dcfb-11eb-8671-35882ed5976e.gif)
 
-<img width="740" alt="groovy-channel-player-permissions" src="https://user-images.githubusercontent.com/79812580/124403455-25dc5c80-dcfc-11eb-9b59-ed72219c187d.png">
-
-
+Channel permissions override server permissions. And they take effect only in the server for which they are configured.
+You will see a list of permissions each with an x, a slash, and a check next to them. Here's what they mean:
+- a: explicitly deny this permission for this server
+- b: inherit server permission
+- c: explicitly allow this permission for this server
 <img width="343" alt="channel-permission-explanation" src="https://user-images.githubusercontent.com/79812580/124403397-da29b300-dcfb-11eb-8982-8b3f703b383c.png">
 
 
