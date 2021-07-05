@@ -11,28 +11,31 @@
 
 
 ## Introduction <a name="introduction"></a>
-Read time: about 25 minutes
 
-If you're a game master (GM) and you're running virtual tableop roleplaying games (ttrpgs), you need a Discord server.
-Discord is the most popular tool in the ttrpg space for hosting a gaming community, or even a fanbase. Servers are free
-spaces that provide text, voice, and video chat features. They are easy to create, but harnassing their potential can
-be a bit intimidating. But, your job is already hard enough. And, all the time you spend wrangling technology is time
-you aren't focusing on the game.
+If you're a game master (GM) and you're running tableop roleplaying games (TTRPGs) virtually, you need a Discord server.
+Discord is the most popular tool in the TTRPG space for hosting a gaming community, or even a fanbase. While some of it's
+essential features can be found on virtual tabletops, like Roll20, both Discord's UI and the quality of it's services
+are superior what is offered by available VTTs. It's also much more convenient for you community to interact through Discord
+thank through a VTT, or even other chat focused app like Zoom or Teams.
 
-This guide will do help you get you familiar with all of the essential features of Discord. By the end, you will have
-a well organized, ready to scale, and invite-only server with a music bot that you can use to add atmosphere to your games.
-The best part is that you won't have to go reading about anything in depth. This will be quick and easy!
+Discord servers are free spaces that provide text, voice, and video chat features. Servers are easy to create, but harnassing their potential can
+be a bit intimidating. Your job is already hard enough, and all the time you spend wrangling technology is time you
+aren't focusing on the game.
 
-**Note:**
-This is a tutorial. It does not discuss the features of Discord in depth. Although it does touch on a few gotchas so that you aren;t caught off gaurd in the middle of a game session. For an in depth explanation of what discord is, click [here](https://discord.com/safety/360044149331-What-is-Discord)
+This guide will help you quickly create a a well organized, ready to scale, and invite-only server with a music bot that
+you can use to add atmosphere to your games. By the end, you'll also be familiar with all of the essential features of the app.
+The best part is that you won't have to go reading about anything in depth.
+
+Note: this is a tutorial. It does not discuss the features of Discord in depth. Although it does touch on a few gotchas so you aren't caught off
+      gaurd in the middle of a game session. For an in depth explanation of what Discord is, click [here](https://discord.com/safety/360044149331-What-is-Discord)
 
 First, we'll create your server. Then, we'll create a new text channel specifically for communicating with your music bot and a new voice channel
-for private chats with players during your games. Then, we'll create some user roles for GMs and Players. Once we have those, we will confiure server
-and channel specific permissions for thsoe roles. Roles are essential to maintaining a well organized and stable server. As you begin scaling
+for private chats with players during your games. Then, we'll create some user roles for GMs and Players. Once we have those, we will configure server
+and channel-specific permissions for those roles. Roles are essential to maintaining a well-organized and stable server. As you begin scaling
 your community and adding features to your server, you will need more complex roles and permissions. But that's not what this guide is about. At the
 end, you'll find a recommendation for a dice rolling bot.
 
-Let's get going!
+This take about 25 minutes. Let's get going!
 
 ## Prerequisites <a name="prerequisites"></a>
 You need to have the Discord app installed, and you need to have an account. If you need assistance with either of these steps, consult Discord's guide to [Getting Started](https://support.discord.com/hc/en-us/articles/360033931551-Getting-Started). That process will only take a few minutes.
