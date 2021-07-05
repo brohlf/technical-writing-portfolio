@@ -47,7 +47,13 @@ Time to create your server. This is where you will be hosting your games. It'll 
 
 **Follow along** - this will be quick and easy!
 
-![create-server-example](https://user-images.githubusercontent.com/79812580/124398371-ff59f980-dcda-11eb-8aee-b27b4eb8fe92.gif)
+<figure>
+  <img src="./images/create-server-example.gif" alt="" style="width:100%">
+
+  <figcaption align = "center">
+    <b>Fig.1 - Account Creation</b>
+  </figcaption>
+</figure>
 
 **Note:** Don't worry about server templates for now. They won't help with what we're doing.
 
