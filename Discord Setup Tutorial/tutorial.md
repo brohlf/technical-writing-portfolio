@@ -76,7 +76,7 @@ Time to create your server! This is where you will be hosting your games. It'll 
 Now, let's create two new channels for your server. You'll want a text channel to communicate with your music bot. And you'll also want a second voice channel (these also have video chat capalities) so you can pull players aside for private chats during games.
 
 ### 2.1 Channel Creation
-**Follow these steps** to create a new text channel:
+**Follow these steps** to create your new channels:
 <ol>
   <li>
     Just to the right of "TEXT CHANNELS", click on the plus icon - shown below
@@ -94,16 +94,26 @@ Now, let's create two new channels for your server. You'll want a text channel t
 <img width="500" alt="new-channel-popup" src="https://user-images.githubusercontent.com/79812580/124408873-cd618b00-dd0c-11eb-8d32-cd20e91f0bbb.png">
 
 ### 2.2 Renaming Channels
-You can also rename that general voice channel by navigating to it's "edit channel" page. Click on the gear icon to the right of the channel name.
+We'll start by renaming the general voice channel.
+**Follow these steps** to create a new text channel:
+<ol>
+  <li>
+    Click on the gear icon to the right of the channel name, which will take to the channel's settings page
+  </li>
+  <li>
+    Edit the server's name
+  </li>
+  <li>
+    Click on the green "Save Changes" button, which will pop up at the bottom of the page
+  </li>
+  <li>
+    Repeat this process to rename your new voice channel
+  </li>
+</ol>
 
 <img width="341" alt="edit-channel" src="https://user-images.githubusercontent.com/79812580/124409763-8e343980-dd0e-11eb-8c10-8f0669fd387c.png">
 
-Once you've made you're change, clikc on the green "Save Changes" button that will pop up at the bottom of the page.
-
-Then, you can edit the channel name.
-
-
-When you're should then see these two new channels!
+When you're done, you should see these two new channels!
 
 <img width="324" alt="new-channels" src="https://user-images.githubusercontent.com/79812580/124408807-a3a86400-dd0c-11eb-8f64-e0267c51f393.png">
 
