@@ -32,8 +32,7 @@ Note: this is a tutorial. It does not discuss the features of Discord in depth. 
 First, we'll create your server. Then, we'll create a new text channel specifically for communicating with your music bot and a new voice channel
 for private chats with players during your games. Then, we'll create some user roles for GMs and Players. Once we have those, we will configure server
 and channel-specific permissions for those roles. Roles are essential to maintaining a well-organized and stable server. As you begin scaling
-your community and adding features to your server, you will need more complex roles and permissions. But that's not what this guide is about. At the
-end, you'll find a recommendation for a dice rolling bot.
+your community and adding features to your server, you will need more complex roles and permissions. But that's not what this guide is about. In the last section, you'll find a recommendation for a dice rolling bot.
 
 This take about 25 minutes. Let's get going!
 
