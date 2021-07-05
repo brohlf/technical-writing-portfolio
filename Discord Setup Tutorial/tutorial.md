@@ -4,8 +4,8 @@
 - [Introduction](#introduction)
 - [Prerequisites](#prerequisites)
 - [1. Create Your Server](#serverCreation)
-- [2. Create Roles](#createRoles)
-- [3. Create Channels](#createChannels)
+- [2. Create Your User Roles](#createRoles)
+- [3. Create Your Channels](#createChannels)
 - [4. Get Your Music Bot](#inviteGroovy)
 
 ## Introduction <a name="introduction"></a>
@@ -27,7 +27,7 @@ Time to create your server.
 
 **Note:** Don't worry about server templates for now. They won't help with what we're doing.
 
-## 2. Create Roles <a name="createRoles"></a>
+## 2. Create Your User Roles <a name="createRoles"></a>
 
 ![create-role](https://user-images.githubusercontent.com/79812580/124400490-68943980-dce8-11eb-84fa-e4e7c3848169.gif)
 
@@ -48,7 +48,7 @@ Let's create a role for GMs, and one for players.
 
 <img width="1549" alt="assign-roles" src="https://user-images.githubusercontent.com/79812580/124401107-42bd6380-dced-11eb-8c0c-9339bfb553d7.png">
 
-## 3. Create Channels <a name="createChannels"></a>
+## 3. Create Your Channels <a name="createChannels"></a>
 
 <img width="446" alt="create-channel-button" src="https://user-images.githubusercontent.com/79812580/124401343-85337000-dcee-11eb-97c0-5590670978bf.png">
 
