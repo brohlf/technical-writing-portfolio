@@ -4,8 +4,8 @@
 - [Introduction](#introduction)
 - [Prerequisites](#prerequisites)
 - [1. Create Your Server](#serverCreation)
-- [2. Create Your User Roles](#createRoles)
-- [3. Create Your Channels](#createChannels)
+- [2. Create Your Channels](#createChannels)
+- [3. Create Your User Roles](#createRoles)
 - [4. Get Your Music Bot](#inviteGroovy)
 - [5. Keep Going!](#nextSteps)
 
@@ -75,30 +75,8 @@ Time to create your server! This is where you will be hosting your games. It'll 
   <b>Fig.1 - Server Creation</b>
 </p>
 
-## 2. Create Your User Roles <a name="createRoles"></a>
-Let's navigate into your server settings and create some user roles. We'll make one for GMs, and one for players. Later, there will be one for your music bot too. Roles enable you to create profiles of server permissions. Permissions determine how much freedom and control user have in your server. As the owner of this server, you permanently have administrator permissions - they can't be taken away from you, even by others with administrator privileges. Ownership is not a role. We'll deal with both roles and permissions in this section.
 
-### 2.1. Roles
-
-**Follow along** - let's start with a role for GMs.
-![create-role](https://user-images.githubusercontent.com/79812580/124400490-68943980-dce8-11eb-84fa-e4e7c3848169.gif)
-
-Repeat this process to create a "Player" role.
-
-#### 2.2.1 Assigning Roles
-Before we move on to configuring permissions, you need to know how to assign roles. Just right click on a user's name and navigate to the roles options. Dont worry about assigning roles to yourself. As the owner, you have permanent admin privileges which cannot be taken away from you.
-
-<img width="1549" alt="assign-roles" src="https://user-images.githubusercontent.com/79812580/124401107-42bd6380-dced-11eb-8c0c-9339bfb553d7.png">
-
-### 2.2. Permissions
-
-**Follow along** - let's navigate to the permissions tab
-![navigate-permissions](https://user-images.githubusercontent.com/79812580/124401060-c7f44880-dcec-11eb-835b-a011212ad3a6.gif)
-
-We won't go into detail, explaining what all of these permissions do. Basically, players need the ability to move around and speak in your social channels. And GMs need the ability to speak over people, mute people, move players around, and even kick or ban players that are causing problems. Just make sure that you configure your GM and Player permissions to look like [this](https://github.com/brohlf/technical-writing-portfolio/blob/main/Discord%20Setup%20Tutorial/Permission%20Configurations/gm-player-configs.md).
-
-
-## 3. Create Your Channels <a name="createChannels"></a>
+## 2. Create Your Channels <a name="createChannels"></a>
 Now that we have your roles created, let's create some channels! You'll need a text channel for communicating with your Groovy bot, and you'll need an additional voice channel for speaking with individual players privately during games.
 
 Just to the right of "TEXT CHANNELS", click on the plus icon, shown below.
@@ -122,6 +100,30 @@ Then, you can edit the channel name.
 When you're should then see these two new channels!
 
 <img width="324" alt="new-channels" src="https://user-images.githubusercontent.com/79812580/124408807-a3a86400-dd0c-11eb-8f64-e0267c51f393.png">
+
+
+## 3. Create Your User Roles <a name="createRoles"></a>
+Let's navigate into your server settings and create some user roles. We'll make one for GMs, and one for players. Later, there will be one for your music bot too. Roles enable you to create profiles of server permissions. Permissions determine how much freedom and control user have in your server. As the owner of this server, you permanently have administrator permissions - they can't be taken away from you, even by others with administrator privileges. Ownership is not a role. We'll deal with both roles and permissions in this section.
+
+### 3.1. Roles
+
+#### 3.1.1 Creating Roles
+**Follow along** - let's start with a role for GMs.
+![create-role](https://user-images.githubusercontent.com/79812580/124400490-68943980-dce8-11eb-84fa-e4e7c3848169.gif)
+
+Repeat this process to create a "Player" role.
+
+#### 3.1.2 Assigning Roles
+Before we move on to configuring permissions, you need to know how to assign roles. Just right click on a user's name and navigate to the roles options. Dont worry about assigning roles to yourself. As the owner, you have permanent admin privileges which cannot be taken away from you.
+
+<img width="1549" alt="assign-roles" src="https://user-images.githubusercontent.com/79812580/124401107-42bd6380-dced-11eb-8c0c-9339bfb553d7.png">
+
+### 3.2. Permissions
+
+**Follow along** - let's navigate to the permissions tab
+![navigate-permissions](https://user-images.githubusercontent.com/79812580/124401060-c7f44880-dcec-11eb-835b-a011212ad3a6.gif)
+
+We won't go into detail, explaining what all of these permissions do. Basically, players need the ability to move around and speak in your social channels. And GMs need the ability to speak over people, mute people, move players around, and even kick or ban players that are causing problems. Just make sure that you configure your GM and Player permissions to look like [this](https://github.com/brohlf/technical-writing-portfolio/blob/main/Discord%20Setup%20Tutorial/Permission%20Configurations/gm-player-configs.md).
 
 
 ## 4. Get Your Music Bot <a name="inviteGroovy"></a>
