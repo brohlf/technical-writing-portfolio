@@ -77,7 +77,7 @@ Time to create your server! This is where you will be hosting your games. It'll 
 
 
 ## 2. Create Your Channels <a name="createChannels"></a>
-Now that we have your roles created, let's create some channels! You'll need a text channel for communicating with your Groovy bot, and you'll need an additional voice channel for speaking with individual players privately during games.
+Now that we have your roles created, let's create some channels! You'll need a text channel for communicating with your music bot, and you'll need an additional voice channel for speaking with individual players privately during games.
 
 Just to the right of "TEXT CHANNELS", click on the plus icon, shown below.
 
