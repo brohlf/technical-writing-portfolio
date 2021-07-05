@@ -95,6 +95,7 @@ Now, let's create two new channels for your server. You'll want a text channel t
 
 ### 2.2 Renaming Channels
 We'll start by renaming the general voice channel.
+
 **Follow these steps** to create a new text channel:
 <ol>
   <li>
