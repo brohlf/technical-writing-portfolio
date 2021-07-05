@@ -50,10 +50,11 @@ Time to create your server. This is where you will be hosting your games. It'll 
 <figure>
   <img src="./images/create-server-example.gif" alt="" style="width:100%">
 
-  <figcaption align = "center">
+  <figcaption style="margin-left: 25%;">
     <b>Fig.1 - Account Creation</b>
   </figcaption>
 </figure>
+
 
 **Note:** Don't worry about server templates for now. They won't help with what we're doing.
 
