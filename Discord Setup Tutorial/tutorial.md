@@ -5,7 +5,7 @@
 - [Prerequisites](#prerequisites)
 - [1. Create Your Server](#serverCreation)
 - [2. Create Your Channels](#createChannels)
-- [3. Create Your User Roles](#createRoles)
+- [3. Create User Roles and Configure Permissions](#createRoles)
 - [4. Get Your Music Bot](#inviteGroovy)
 - [5. Keep Going!](#nextSteps)
 
@@ -102,7 +102,7 @@ When you're should then see these two new channels!
 <img width="324" alt="new-channels" src="https://user-images.githubusercontent.com/79812580/124408807-a3a86400-dd0c-11eb-8f64-e0267c51f393.png">
 
 
-## 3. Create Your User Roles <a name="createRoles"></a>
+## 3. Create User Roles and Configure Permissions <a name="createRoles"></a>
 Let's navigate into your server settings and create some user roles. We'll make one for GMs, and one for players. Later, there will be one for your music bot too. Roles enable you to create profiles of server permissions. Permissions determine how much freedom and control user have in your server. As the owner of this server, you permanently have administrator permissions - they can't be taken away from you, even by others with administrator privileges. Ownership is not a role. We'll deal with both roles and permissions in this section.
 
 ### 3.1. Roles
