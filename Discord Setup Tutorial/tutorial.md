@@ -52,15 +52,7 @@ Before we move on to configuring permissions, you need to know how to assign rol
 **Follow along** - let's navigate to the permissions tab
 ![navigate-permissions](https://user-images.githubusercontent.com/79812580/124401060-c7f44880-dcec-11eb-835b-a011212ad3a6.gif)
 
-We won't go into detail, explaining what all of these permissions do. Basically, players need the ability to move around and speak in your social channels. And GMs need the ability to speak over people, mute people, move players around, and even kick or ban players that are causing problems. Just make sure that you configure your GM and Player permissions to look like this.
-
-[permissions-gm]: https://github.com/brohlf/technical-writing-portfolio/blob/main/Discord%20Setup%20Tutorial/images/permissions-gm.png
-[permissions-players]: https://github.com/brohlf/technical-writing-portfolio/blob/main/Discord%20Setup%20Tutorial/images/permissions-players.png
-
-| gm permissions      | player permissions      |
-:---------------------|-------------------------:
-| ![][permissions-gm] | ![][permissions-players] |
-
+We won't go into detail, explaining what all of these permissions do. Basically, players need the ability to move around and speak in your social channels. And GMs need the ability to speak over people, mute people, move players around, and even kick or ban players that are causing problems. Just make sure that you configure your GM and Player permissions to look like [this](https://github.com/brohlf/technical-writing-portfolio/blob/main/Discord%20Setup%20Tutorial/Permission%20Configurations/gm-player-configs.md).
 
 
 ## 3. Create Your Channels <a name="createChannels"></a>
