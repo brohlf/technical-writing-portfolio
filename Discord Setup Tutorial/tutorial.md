@@ -25,10 +25,7 @@ The best part is that you won't have to go reading about anything in depth.
 **Note:** this is a tutorial. It does not discuss the features of Discord in depth. However, it does touch on a few gotchas so you aren't caught off
       guard in the middle of a game session. For an in-depth explanation of what Discord is, click [here](https://discord.com/safety/360044149331-What-is-Discord)
 
-First, we'll create your server. Then, we'll create a new text channel specifically for communicating with your music bot and a new voice channel
-for private chats with players during your games. Then, we'll create some user roles for GMs and Players. Once we have those, we'll configure server
-and channel-specific permissions for those roles. Roles are essential to maintaining a well-organized and stable server. As you begin scaling
-your community and adding features to your server, you will need more complex roles and permissions. But that's not what this guide is about. In the last section, you'll find a recommendation for a dice rolling bot.
+First, we'll create your server. Then, we'll create a new text channel specifically for communicating with your music bot and a new voice channel for private chats with players during your games. Then, we'll create some user roles for GMs and Players. Once we have those, we'll configure server and channel-specific permissions for those roles. This will give your server some structure. In the last section, you'll find a recommendation for a dice rolling bot.
 
 This will take about 25 minutes. Let's get going!
 
@@ -121,7 +118,11 @@ When you're done, you should see these two new channels!
 ## 3. Create User Roles and Configure Permissions <a name="createRoles"></a>
 Let's navigate into your server settings and create some user roles. We'll make one for GMs, and one for players. Later, there will be one for your music bot too. Roles enable you to create profiles of server permissions. Permissions determine how much freedom and control user have in your server. As the owner of this server, you permanently have administrator permissions - they can't be taken away from you, even by others with administrator privileges. Ownership is not a role. We'll deal with both roles and permissions in this section.
 
+As you begin scaling your community and adding features to your server, you will need more complex roles and permissions. But that's not what this guide is about. 
+
 ### 3.1. Roles
+
+Roles are essential to maintaining a well-organized and stable server.
 
 #### 3.1.1 Creating Roles
 **Follow along** - let's start with a role for GMs.
