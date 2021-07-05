@@ -85,3 +85,4 @@ you need to grant admin privileges so that Groovy can create a role for itself. 
 
 <img width="720" alt="general-channel-groovy-permissions" src="https://user-images.githubusercontent.com/79812580/124403405-e31a8480-dcfb-11eb-9b95-c59def667ff0.png">
 
+[Groovy Commands](https://groovy.bot/commands)
