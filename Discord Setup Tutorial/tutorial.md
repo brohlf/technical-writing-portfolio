@@ -11,8 +11,19 @@
 
 
 ## Introduction <a name="introduction"></a>
+Discord is the most popular application in the ttrpg community for building and engagin with community. Your community might be you and just a few of your friends, or it might be an entire fanbase of hundreds or even thousands of people.
 
+This setup guide is indended for GMs that need to get a server setup quickly. If you've got a game coming up in 30 minutes and you need a voice or video chat platform with text channels and bot capalities, read on.
 
+This guide will take you through the basic functionality of Discord (which is all that you will need), as well as a few gotchas (to save you troubleshooting time if things go wrong during your game), but it is not an in depth discussion of the app.
+
+Discord is particularly interesting because of its thriving bot market. There are a myriad of bots that extend the functinality of Discord, making some things possible, and other things easier. After we get your server set up, we'll add a music bot to it - Groovy. Music is an essential tool for getting and keeping your players engaged in your game. It will add an emotional element. At the end, you'll find a recommendation for another bot that will enable your players to roll dice in your text chat.
+
+Discord is incredibly simple to use. And it's free!
+
+This guide takes a "do this now and learn about it later" approach. Like math class, but more fun.
+
+You'll be ready to go with a feature rich place to host games in about 30 minutes!
 
 ## Prerequisites <a name="prerequisites"></a>
 You need to have the Discord app installed, and you need to have an account. If you need assistance with either of these steps, consult Discord's guide to [Getting Started](https://support.discord.com/hc/en-us/articles/360033931551-Getting-Started). That process will only take a few minutes.
@@ -43,7 +54,7 @@ Let's navigate into your server settings and create some user roles. We'll make 
 Repeat this process to create a "Player" role.
 
 #### 2.2.1 Assigning Roles
-Before we move on to configuring permissions, you need to know how to assign roles. Just right click on a user's name and navigate to the roles options.
+Before we move on to configuring permissions, you need to know how to assign roles. Just right click on a user's name and navigate to the roles options. Dont worry about assigning roles to yourself. As the owner, you have permanent admin privileges which cannot be taken away from you.
 
 <img width="1549" alt="assign-roles" src="https://user-images.githubusercontent.com/79812580/124401107-42bd6380-dced-11eb-8c0c-9339bfb553d7.png">
 
