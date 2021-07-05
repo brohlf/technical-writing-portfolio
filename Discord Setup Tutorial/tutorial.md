@@ -73,11 +73,7 @@ Time to create your server! This is where you will be hosting your games. It'll 
 
 
 ## 2. Create Your Channels <a name="createChannels"></a>
-Now that we have your roles created, let's create some channels! You'll need a text channel for communicating with your music bot, and you'll need an additional voice channel for speaking with individual players privately during games.
-
-When you're should then see these two new channels!
-
-<img width="324" alt="new-channels" src="https://user-images.githubusercontent.com/79812580/124408807-a3a86400-dd0c-11eb-8f64-e0267c51f393.png">
+Now, let's create two new channels for your server. You'll want a text channel to communicate with your music bot. And you'll also want a second voice channel (these also have video chat capalities) so you can pull players aside for private chats during games.
 
 ### 2.1 Channel Creation
 Just to the right of "TEXT CHANNELS", click on the plus icon, shown below.
@@ -99,6 +95,10 @@ Once you've made you're change, clikc on the green "Save Changes" button that wi
 
 Then, you can edit the channel name.
 
+
+When you're should then see these two new channels!
+
+<img width="324" alt="new-channels" src="https://user-images.githubusercontent.com/79812580/124408807-a3a86400-dd0c-11eb-8f64-e0267c51f393.png">
 
 ## 3. Create User Roles and Configure Permissions <a name="createRoles"></a>
 Let's navigate into your server settings and create some user roles. We'll make one for GMs, and one for players. Later, there will be one for your music bot too. Roles enable you to create profiles of server permissions. Permissions determine how much freedom and control user have in your server. As the owner of this server, you permanently have administrator permissions - they can't be taken away from you, even by others with administrator privileges. Ownership is not a role. We'll deal with both roles and permissions in this section.
