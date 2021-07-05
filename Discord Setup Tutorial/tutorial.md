@@ -116,7 +116,14 @@ When you're done, you should see these two new channels!
 <img width="324" alt="new-channels" src="https://user-images.githubusercontent.com/79812580/124408807-a3a86400-dd0c-11eb-8f64-e0267c51f393.png">
 
 ## 3. Create User Roles and Configure Permissions <a name="createRoles"></a>
-Let's navigate into your server settings and create some user roles. We'll make one for GMs, and one for players. Later, there will be one for your music bot too. Roles enable you to create profiles of server permissions. Permissions determine how much freedom and control user have in your server. As the owner of this server, you permanently have administrator permissions - they can't be taken away from you, even by others with administrator privileges. Ownership is not a role. We'll deal with both roles and permissions in this section.
+Let's create a role for GMs, and one for players. Then, we'll configure permissions for those roles.
+
+Permissions define what users are allowed to do in your server and its channels. There are server-wide permissions
+and channel-specific permissions. Channel-specific permissions will override server permissions. Users get their permissions
+from the roles they are assigned. A user might have multiple roles with conflicting permissions, but you won't have an
+issue with that for now.
+
+Note: a more detailed discussion of permissions can be found [here](https://support.discord.com/hc/en-us/articles/206141927-How-is-the-permission-hierarchy-structured-)
 
 As you begin scaling your community and adding features to your server, you will need more complex roles and permissions. But that's not what this guide is about. 
 
