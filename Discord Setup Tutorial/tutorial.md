@@ -87,7 +87,7 @@ Now, let's create two new channels for your server. You'll want a text channel t
     To the right of <em>TEXT CHANNELS</em>, click on the plus icon - see <b>Fig.2.1.1</b>
   </li>
   <li>
-    When you see the <em>CREATE TEXT CHANNEL</em> popup, enter a name for your server, then click <em>Create Channel</em> - see <b>Fig.2.1.2</b>
+    When you see the <em>Create Text Channel</em> popup, enter a name for your server, then click <em>Create Channel</em> - see <b>Fig.2.1.2</b>
     <ul>
       <li>
         Ensure that <em>Private Channel</em> is <b>unchecked</b>
