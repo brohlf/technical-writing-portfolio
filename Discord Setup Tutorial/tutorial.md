@@ -20,7 +20,7 @@ essential features can be found on virtual tabletops (VTTs), like Roll20, both D
 are superior to what is offered by available VTTs. It's also much more convenient for your community to interact through Discord
 than through a VTT, or even through other chat-focused apps like Zoom or Teams.
 
-Discord servers are free spaces that provide text, voice, and video chat features. This guide will help you quickly create a a well organized, ready to scale, and invite-only server with a music bot that you can use to add atmosphere to your games. By the end, you'll also be familiar with all of the essential features of the app. The best part is that you won't have to go reading about anything in depth.
+Discord servers are free spaces that provide text, voice, and video chat features. This guide will help you quickly create a well organized, ready to scale, and invite-only server with a music bot that you can use to add atmosphere to your games. By the end, you'll also be familiar with all of the essential features of the app.
 
 **Note:** This is a tutorial. It does not discuss the features of Discord in depth. However, it does touch on a few gotchas so you won't be caught off guard in the middle of a game.
 
