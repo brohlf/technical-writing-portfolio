@@ -60,7 +60,7 @@ Time to create your server! This is where you will be hosting your games. It'll 
   </li>
 </ol>
 
-**Fig. 1** shows what that process looks like.
+**Fig. 1.1** shows what that process looks like.
 
 <p align="center">
   <img src="./images/create-server-example.gif" alt="" width="75%">
