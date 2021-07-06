@@ -4,7 +4,9 @@
 - [Introduction](#introduction)
 - [Prerequisites](#prerequisites)
 - [1. Create Your Server](#serverCreation)
-- [2. Create Your Channels](#createChannels)
+- [2. Create Your Channels](#createChannelsSection)
+  - [2.1. Channel Creation](#createChannels)
+  - [2.2. Renaming Channels](#renameChannels)
 - [3. Create User Roles and Configure Permissions](#createRoles)
 - [4. Get Your Music Bot](#inviteGroovy)
 - [5. Keep Going!](#nextSteps)
@@ -70,7 +72,7 @@ Time to create your server! This is where you will be hosting your games. It'll 
 </p>
 
 
-## 2. Create Your Channels <a name="createChannels"></a>
+## 2. Create Your Channels <a name="createChannelsSection"></a>
 Now, let's create two new channels for your server. You'll want a dedicated text channel to communicate with your music bot. You'll also want a second voice channel (these also have video chat capalities) so you can pull players aside for private chats during games.
 
 <b>Fig. 2</b> shows what you'll see when you're done!
@@ -80,7 +82,7 @@ Now, let's create two new channels for your server. You'll want a dedicated text
   <b>Fig. 2 - New Channels Example</b>
 </p>
 
-### 2.1. Channel Creation
+### 2.1. Channel Creation <a name="createChannels"></a>
 **Follow these steps** to create your new channels:
 <ol>
   <li>
@@ -111,7 +113,7 @@ Now, let's create two new channels for your server. You'll want a dedicated text
 </p>
     
 
-### 2.2. Renaming Channels
+### 2.2. Renaming Channels <a name="renameChannels"></a>
 Because this is a gaming server, let's rename the <em>general</em> voice channel to better fit that theme.
 
 **Follow these steps** to rename a channel:
