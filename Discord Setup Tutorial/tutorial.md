@@ -90,13 +90,13 @@ Now, let's create two new channels for your server. You'll want a text channel t
 <p align="center">
   <img src="./images/create-channel-button.png" alt="" width="50%">
   <br>
-  <b>Fig.2.1 - Server Creation</b>
+  <b>Fig.2.1.1 - Channel Creation Button</b>
 </p>
 
 <p align="center">
   <img src="./images/new-channel-popup.png" alt="" width="50%">
   <br>
-  <b>Fig.2.2 - Server Creation</b>
+  <b>Fig.2.1.2 - New Channel Popup</b>
 </p>
 
 ### 2.2 Renaming Channels
@@ -118,11 +118,19 @@ We'll start by renaming the general voice channel.
   </li>
 </ol>
 
-<img width="341" alt="edit-channel" src="https://user-images.githubusercontent.com/79812580/124409763-8e343980-dd0e-11eb-8c10-8f0669fd387c.png">
+<p align="center">
+  <img src="./images/edit-channel.png" alt="" width="50%">
+  <br>
+  <b>Fig.2.2.1 - Edit Channel Button</b>
+</p>
 
 When you're done, you should see these two new channels!
 
-<img width="324" alt="new-channels" src="https://user-images.githubusercontent.com/79812580/124408807-a3a86400-dd0c-11eb-8f64-e0267c51f393.png">
+<p align="center">
+  <img src="./images/new-channels.png" alt="" width="50%">
+  <br>
+  <b>Fig.2.1 - New Channels Example</b>
+</p>
 
 ## 3. Create User Roles and Configure Permissions <a name="createRoles"></a>
 Let's create a role for GMs, and one for players. Then, we'll configure permissions for those roles.
