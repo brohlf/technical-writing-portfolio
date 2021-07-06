@@ -167,10 +167,20 @@ Just right click on a user's name and navigate to the roles options. Dont worry 
 
 ### 3.2. Server Permissions
 
-**Follow along** - let's navigate to the permissions tab
-![navigate-permissions](https://user-images.githubusercontent.com/79812580/124401060-c7f44880-dcec-11eb-835b-a011212ad3a6.gif)
+We won't go into detail, explaining what each permission does. Basically, players need the ability to navigate through and speak in your social channels. And GMs need the ability to speak over people, mute people, move players around, and even kick or ban players that are causing problems. Just make sure that you configure your GM and Player permissions to look like [this](https://github.com/brohlf/technical-writing-portfolio/blob/main/Discord%20Setup%20Tutorial/Permission%20Configurations/gm-player-configs.md).
 
-We won't go into detail, explaining what all of these permissions do. Basically, players need the ability to move around and speak in your social channels. And GMs need the ability to speak over people, mute people, move players around, and even kick or ban players that are causing problems. Just make sure that you configure your GM and Player permissions to look like [this](https://github.com/brohlf/technical-writing-portfolio/blob/main/Discord%20Setup%20Tutorial/Permission%20Configurations/gm-player-configs.md).
+**Follow these steps** to navigate to the permissions for a particular role:
+<ol>
+  <li>
+    
+  </li>
+  <li>
+    
+  </li>
+</ol>
+
+**Fig.** shows what that process looks like.
+![navigate-permissions](https://user-images.githubusercontent.com/79812580/124401060-c7f44880-dcec-11eb-835b-a011212ad3a6.gif)
 
 
 ## 4. Get Your Music Bot <a name="inviteGroovy"></a>
