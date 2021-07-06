@@ -73,6 +73,13 @@ Time to create your server! This is where you will be hosting your games. It'll 
 ## 2. Create Your Channels <a name="createChannels"></a>
 Now, let's create two new channels for your server. You'll want a text channel to communicate with your music bot. And you'll also want a second voice channel (these also have video chat capalities) so you can pull players aside for private chats during games.
 
+When you're done, this is what you'll see!
+<p align="center">
+  <img src="./images/new-channels.png" alt="" width="30%">
+  <br>
+  <b>Fig.2 - New Channels Example</b>
+</p>
+
 ### 2.1 Channel Creation
 **Follow these steps** to create your new channels:
 <ol>
@@ -88,13 +95,13 @@ Now, let's create two new channels for your server. You'll want a text channel t
 </ol>
 
 <p align="center">
-  <img src="./images/create-channel-button.png" alt="" width="50%">
+  <img src="./images/create-channel-button.png" alt="" width="30%">
   <br>
   <b>Fig.2.1.1 - Channel Creation Button</b>
 </p>
 
 <p align="center">
-  <img src="./images/new-channel-popup.png" alt="" width="50%">
+  <img src="./images/new-channel-popup.png" alt="" width="30%">
   <br>
   <b>Fig.2.1.2 - New Channel Popup</b>
 </p>
@@ -119,17 +126,9 @@ We'll start by renaming the general voice channel.
 </ol>
 
 <p align="center">
-  <img src="./images/edit-channel.png" alt="" width="50%">
+  <img src="./images/edit-channel.png" alt="" width="30%">
   <br>
   <b>Fig.2.2.1 - Edit Channel Button</b>
-</p>
-
-When you're done, you should see these two new channels!
-
-<p align="center">
-  <img src="./images/new-channels.png" alt="" width="50%">
-  <br>
-  <b>Fig.2.1 - New Channels Example</b>
 </p>
 
 ## 3. Create User Roles and Configure Permissions <a name="createRoles"></a>
