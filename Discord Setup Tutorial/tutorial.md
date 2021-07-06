@@ -34,7 +34,7 @@ First, we'll create your server. Second, we'll create a new text channel specifi
 This will take about 25 minutes. Let's get going!
 
 ## Prerequisites <a name="prerequisites"></a>
-You need to have the Discord app installed, and you need to have an account. For assistance with either of these steps, consult Discord's guide to [Getting Started](https://support.discord.com/hc/en-us/articles/360033931551-Getting-Started). That process will only take a few minutes.
+You need to have the Discord app installed, and you need to have an account. For assistance with either of those steps, consult Discord's guide to [Getting Started](https://support.discord.com/hc/en-us/articles/360033931551-Getting-Started). That process will only take a few minutes.
 
 System requirements can be found [here](https://support.discord.com/hc/en-us/articles/213491697-What-are-the-OS-system-requirements-for-Discord-). (You'll need about 65 MB of available hard drive space.)
 
