@@ -86,9 +86,17 @@ Now, let's create two new channels for your server. You'll want a text channel t
   </li>
 </ol>
 
-<img width="446" alt="create-channel-button" src="https://user-images.githubusercontent.com/79812580/124401343-85337000-dcee-11eb-97c0-5590670978bf.png">
+<p align="center">
+  <img src="./images/create-channel-button.png" alt="" width="50%">
+  <br>
+  <b>Fig.2.1 - Server Creation</b>
+</p>
 
-<img width="500" alt="new-channel-popup" src="https://user-images.githubusercontent.com/79812580/124408873-cd618b00-dd0c-11eb-8d32-cd20e91f0bbb.png">
+<p align="center">
+  <img src="./images/new-channel-popup.png" alt="" width="50%">
+  <br>
+  <b>Fig.2.2 - Server Creation</b>
+</p>
 
 ### 2.2 Renaming Channels
 We'll start by renaming the general voice channel.
