@@ -61,30 +61,30 @@ Time to create your server! This is where you will be hosting your games. It'll 
   </li>
 </ol>
 
-**Fig.1** shows what that process looks like.
+**Fig. 1** shows what that process looks like.
 
 <p align="center">
   <img src="./images/create-server-example.gif" alt="" width="50%">
   <br>
-  <b>Fig.1 - Server Creation</b>
+  <b>Fig. 1 - Server Creation</b>
 </p>
 
 
 ## 2. Create Your Channels <a name="createChannels"></a>
 Now, let's create two new channels for your server. You'll want a dedicated text channel to communicate with your music bot. You'll also want a second voice channel (these also have video chat capalities) so you can pull players aside for private chats during games.
 
-<b>Fig.2</b> shows what you'll see when you're done!
+<b>Fig. 2</b> shows what you'll see when you're done!
 <p align="center">
   <img src="./images/new-channels.png" alt="" width="30%">
   <br>
-  <b>Fig.2 - New Channels Example</b>
+  <b>Fig. 2 - New Channels Example</b>
 </p>
 
-### 2.1 Channel Creation
+### 2.1. Channel Creation
 **Follow these steps** to create your new channels:
 <ol>
   <li>
-    To the right of <em>TEXT CHANNELS</em>, click on the plus icon - see <b>Fig.2.1.1</b>
+    To the right of <em>TEXT CHANNELS</em>, click on the plus icon - see <b>Fig. 2.1.1</b>
   </li>
   <li>
     When you see the <em>Create Text Channel</em> popup, enter a name for your server, then click <em>Create Channel</em> - see <b>Fig.2.1.2</b>
@@ -102,22 +102,22 @@ Now, let's create two new channels for your server. You'll want a dedicated text
 <p align="center">
       <img src="./images/create-channel-button.png" alt="" width="30%">
       <br>
-      <b>Fig.2.1.1 - Create Channel Button</b>
+      <b>Fig. 2.1.1 - Create Channel Button</b>
 </p>
 <p align="center">
       <img src="./images/new-channel-popup.png" alt="" width="30%">
       <br>
-      <b>Fig.2.1.2 - Create Channel Popup</b>
+      <b>Fig. 2.1.2 - Create Channel Popup</b>
 </p>
     
 
-### 2.2 Renaming Channels
+### 2.2. Renaming Channels
 Because this is a gaming server, let's rename the <em>general</em> voice channel to better fit that theme.
 
 **Follow these steps** to rename a channel:
 <ol>
   <li>
-    Click on the gear icon to the right of the channel name, which will take you to the channel's settings page - see <b>Fig.2.2.1</b>
+    Click on the gear icon to the right of the channel name, which will take you to the channel's settings page - see <b>Fig. 2.2.1</b>
   </li>
   <li>
     Change the server's name
@@ -130,7 +130,7 @@ Because this is a gaming server, let's rename the <em>general</em> voice channel
 <p align="center">
   <img src="./images/edit-channel.png" alt="" width="30%">
   <br>
-  <b>Fig.2.2.1 - Edit Channel Button</b>
+  <b>Fig. 2.2.1 - Edit Channel Button</b>
 </p>
 
 ## 3. Create User Roles and Configure Permissions <a name="createRoles"></a>
@@ -149,7 +149,7 @@ As you begin scaling your community and adding features to your server, you will
 
 Roles are essential to maintaining a well-organized and stable server.
 
-#### 3.1.1 Creating Roles
+#### 3.1.1. Creating Roles
 Let's create the "GM" role first. Then, repeat the steps below to create a "Player" role.
 
 **Follow these steps** to create your new roles:
