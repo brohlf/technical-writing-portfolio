@@ -148,8 +148,21 @@ Let's create the "GM" role first. Then, repeat the steps below to create a "Play
 ![create-role](https://user-images.githubusercontent.com/79812580/124400490-68943980-dce8-11eb-84fa-e4e7c3848169.gif)
 
 #### 3.1.2 Assigning Roles
-Before we move on to configuring permissions, you need to know how to assign roles. Just right click on a user's name and navigate to the roles options. Dont worry about assigning roles to yourself. As the owner, you have permanent admin privileges which cannot be taken away from you.
+Now, assign the "GM" role to yourself.
 
+Just right click on a user's name and navigate to the roles options. Dont worry about assigning roles to yourself. As the owner, you have permanent admin privileges which cannot be taken away from you.
+
+**Follow these steps** to assign your new roles:
+<ol>
+  <li>
+    
+  </li>
+  <li>
+    
+  </li>
+</ol>
+
+**Fig.** shows what that process looks like.
 <img width="1549" alt="assign-roles" src="https://user-images.githubusercontent.com/79812580/124401107-42bd6380-dced-11eb-8c0c-9339bfb553d7.png">
 
 ### 3.2. Server Permissions
