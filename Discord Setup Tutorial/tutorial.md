@@ -84,30 +84,32 @@ When you're done, this is what you'll see!
 **Follow these steps** to create your new channels:
 <ol>
   <li>
-    Just to the right of "TEXT CHANNELS", click on the plus icon - shown below
-    <p align="center">
-      <img src="./images/create-channel-button.png" alt="" width="30%">
-      <br>
-      <b>Fig.2.1.1 - Channel Creation Button</b>
-    </p>
+    To the right of <em>TEXT CHANNELS</em>, click on the plus icon - see <b>Fig.2.1.1</b>
   </li>
   <li>
-    You should then see this popup. Click "Create Channel"
+    When you see the <em>CREATE TEXT CHANNEL</em> popup, enter a name for your server, then click <em>Create Channel</em> - see <b>Fig.2.1.2</b>
     <ul>
       <li>
-        Make sure the channels isn't private
+        Ensure that <em>Private Channel</em> is <b>unchecked</b>
       </li>
     </ul>
-    <p align="center">
-      <img src="./images/new-channel-popup.png" alt="" width="30%">
-      <br>
-      <b>Fig.2.1.2 - New Channel Popup</b>
-    </p>
   </li>
   <li>
-    Repeat that process to create a new voice channel for private chats with players during games.
+    Repeat this process to create a new voice channel for private chats with players during games
   </li>
 </ol>
+
+<p align="center">
+      <img src="./images/create-channel-button.png" alt="" width="30%">
+      <br>
+      <b>Fig.2.1.1 - Create Channel Button</b>
+</p>
+<p align="center">
+      <img src="./images/new-channel-popup.png" alt="" width="30%">
+      <br>
+      <b>Fig.2.1.2 - Create Channel Popup</b>
+</p>
+    
 
 ### 2.2 Renaming Channels
 We'll start by renaming the general voice channel.
