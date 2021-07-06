@@ -42,13 +42,13 @@ Time to create your server! This is where you will be hosting your games. It'll 
 **Follow these steps** to create your server:
 <ol>
   <li>
-    Click on the "Add a Server" button, represented by a plus icon on left-side menu bar.
+    Click on the <em>Add a Server</em> button, represented by a plus icon on left-side menu bar.
   </li>
   <li>
-    Select "Create My Own."
+    Select <em>Create My Own.</em>
   </li>
   <li>
-    Select "For me and my friends."
+    Select <em>For me and my friends.</em>
     <ul>
       <li>
         Don't worry about server templates for now. They won't help with what we're doing.
@@ -56,7 +56,7 @@ Time to create your server! This is where you will be hosting your games. It'll 
     </ul>
   </li>
   <li>
-    Give your server a name, and click "Create."
+    Give your server a name, and click <em>Create.</em>
   </li>
 </ol>
 
