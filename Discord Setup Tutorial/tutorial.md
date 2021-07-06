@@ -76,7 +76,7 @@ Now, let's create two new channels for your server. You'll want a dedicated text
 <p align="center">
   <img src="./images/new-channels.png" alt="" width="30%">
   <br>
-  <b>Fig. 2 - New Channels Example</b>
+  <b>Fig. 2.1 - New Channels Example</b>
 </p>
 
 ### 2.1. Creating Channels <a name="createChannels"></a>
@@ -166,7 +166,7 @@ Let's create the "GM" role first. Then, repeat the steps below to create a "Play
 <p align="center">
   <img src="./images/create-role.gif" alt="" width="75%">
   <br>
-  <b>Fig. 3.1.1 - Role Creation</b>
+  <b>Fig. 3.1.1.1 - Role Creation</b>
 </p>
 
 #### 3.1.2 Assigning Roles
@@ -188,7 +188,7 @@ Just right click on a user's name and navigate to the roles options. Dont worry 
 <p align="center">
   <img src="./images/assign-roles.png" alt="" width="75%">
   <br>
-  <b>Fig. 3.1.2 - Assign Roles</b>
+  <b>Fig. 3.1.2.1 - Assign Roles</b>
 </p>
 
 ### 3.2. Server Permissions
@@ -209,7 +209,7 @@ We won't go into detail, explaining what each permission does. Basically, player
 <p align="center">
   <img src="./images/navigate-permissions.gif" alt="" width="75%">
   <br>
-  <b>Fig. 3.2 - Navigate Permissions</b>
+  <b>Fig. 3.2.1 - Navigate Permissions</b>
 </p>
 
 
