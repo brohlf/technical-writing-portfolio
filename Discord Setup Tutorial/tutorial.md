@@ -45,21 +45,21 @@ Time to create your server! This is where you will be hosting your games. It'll 
 **Follow these steps** to create your server:
 <ol>
   <li>
-    Click on the "Add a Server" button, represented by a plus icon on left-side menu bar
+    Click on the "Add a Server" button, represented by a plus icon on left-side menu bar.
   </li>
   <li>
-    Select "Create My Own"
+    Select "Create My Own."
   </li>
   <li>
-    Select "For me and my friends"
+    Select "For me and my friends."
     <ul>
       <li>
-        Don't worry about server templates for now. They won't help with what we're doing
+        Don't worry about server templates for now. They won't help with what we're doing.
       </li>
     </ul>
   </li>
   <li>
-    Give your server a name, and click "Create"
+    Give your server a name, and click "Create."
   </li>
 </ol>
 
@@ -86,18 +86,18 @@ Now, let's create two new channels for your server. You'll want a dedicated text
 **Follow these steps** to create your new channels:
 <ol>
   <li>
-    To the right of <em>TEXT CHANNELS</em>, click on the plus icon - see <b>Fig. 2.1.1</b>
+    To the right of <em>TEXT CHANNELS</em>, click on the plus icon - see <b>Fig. 2.1.1</b>.
   </li>
   <li>
-    When you see the <em>Create Text Channel</em> popup, enter a name for your server, then click <em>Create Channel</em> - see <b>Fig. 2.1.2</b>
+    When you see the <em>Create Text Channel</em> popup, enter a name for your server, then click <em>Create Channel</em> - see <b>Fig. 2.1.2</b>.
     <ul>
       <li>
-        Ensure that <em>Private Channel</em> is <b>unchecked</b>
+        Ensure that <em>Private Channel</em> is <b>unchecked</b>.
       </li>
     </ul>
   </li>
   <li>
-    Repeat this process to create a new voice channel for private chats with players during games
+    Repeat this process to create a new voice channel for private chats with players during games.
   </li>
 </ol>
 
@@ -119,13 +119,13 @@ Because this is a gaming server, let's rename the <em>general</em> voice channel
 **Follow these steps** to rename a channel:
 <ol>
   <li>
-    Click on the gear icon to the right of the channel name, which will take you to the channel's settings page - see <b>Fig. 2.2.1</b>
+    Click on the gear icon to the right of the channel name, which will take you to the channel's settings page - see <b>Fig. 2.2.1</b>.
   </li>
   <li>
-    Change the server's name
+    Change the server's name.
   </li>
   <li>
-    Click on the green <em>Save Changes</em> button, which will appear at the bottom of the page
+    Click on the green <em>Save Changes</em> button, which will appear at the bottom of the page.
   </li>
 </ol>
 
