@@ -233,7 +233,7 @@ the music in their games. So we'll make sure of that too.
 Click the following link to download [Groovy Bot](https://groovy.bot/). Click "Add to Discord" to begin the invititation process.
 
 <p align="center">
-  <img src="./images/add-to-discord-button.png" alt="" width="75%">
+  <img src="./images/add-to-discord-button.png" alt="" width="50%">
   <br>
   <b>Fig. 4.1.1 - Add To Discord Button</b>
 </p>
@@ -243,7 +243,7 @@ This will navigate you to a panel that contains a dropdown menu titled "ADD TO S
 At this point, you should see this panel. You need to grant admin privileges so that Groovy can create a role for itself. But, once it's done that, you should revoke admin privileges. Click "Authorize."
 
 <p align="center">
-  <img src="./images/grant-admin-privilages.png" alt="" width="75%">
+  <img src="./images/grant-admin-privilages.png" alt="" width="50%">
   <br>
   <b>Fig. 4.1.2 - Grant Admin Privilages</b>
 </p>
@@ -279,7 +279,7 @@ You will see a list of permissions each with an x, a slash, and a check next to 
 - b: inherit server permission
 - c: explicitly allow this permission for this server
 <p align="center">
-  <img src="./images/channel-permission-explanation.png" alt="" width="75%">
+  <img src="./images/channel-permission-explanation.png" alt="" width="50%">
   <br>
   <b>Fig. 4.2.2 - Channel Permission Explanation</b>
 </p>
