@@ -132,10 +132,20 @@ As you begin scaling your community and adding features to your server, you will
 Roles are essential to maintaining a well-organized and stable server.
 
 #### 3.1.1 Creating Roles
-**Follow along** - let's start with a role for GMs.
-![create-role](https://user-images.githubusercontent.com/79812580/124400490-68943980-dce8-11eb-84fa-e4e7c3848169.gif)
+Let's create the "GM" role first. Then, repeat the steps below to create a "Player" role.
 
-Repeat this process to create a "Player" role.
+**Follow these steps** to create your new roles:
+<ol>
+  <li>
+    
+  </li>
+  <li>
+    
+  </li>
+</ol>
+
+**Fig.** shows what that process looks like.
+![create-role](https://user-images.githubusercontent.com/79812580/124400490-68943980-dce8-11eb-84fa-e4e7c3848169.gif)
 
 #### 3.1.2 Assigning Roles
 Before we move on to configuring permissions, you need to know how to assign roles. Just right click on a user's name and navigate to the roles options. Dont worry about assigning roles to yourself. As the owner, you have permanent admin privileges which cannot be taken away from you.
