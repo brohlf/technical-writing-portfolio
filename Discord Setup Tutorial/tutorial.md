@@ -63,7 +63,7 @@ Time to create your server! This is where you will be hosting your games. It'll 
 **Fig. 1** shows what that process looks like.
 
 <p align="center">
-  <img src="./images/create-server-example.gif" alt="" width="50%">
+  <img src="./images/create-server-example.gif" alt="" width="75%">
   <br>
   <b>Fig. 1 - Server Creation</b>
 </p>
@@ -162,7 +162,12 @@ Let's create the "GM" role first. Then, repeat the steps below to create a "Play
 </ol>
 
 **Fig.** shows what that process looks like.
-![create-role](https://user-images.githubusercontent.com/79812580/124400490-68943980-dce8-11eb-84fa-e4e7c3848169.gif)
+
+<p align="center">
+  <img src="./images/create-role.gif" alt="" width="75%">
+  <br>
+  <b>Fig. 3.1.1 - Role Creation</b>
+</p>
 
 #### 3.1.2 Assigning Roles
 Now, assign the "GM" role to yourself.
@@ -180,7 +185,11 @@ Just right click on a user's name and navigate to the roles options. Dont worry 
 </ol>
 
 **Fig.** shows what that process looks like.
-<img width="1549" alt="assign-roles" src="https://user-images.githubusercontent.com/79812580/124401107-42bd6380-dced-11eb-8c0c-9339bfb553d7.png">
+<p align="center">
+  <img src="./images/assign-roles.png" alt="" width="75%">
+  <br>
+  <b>Fig. 3.1.2 - Assign Roles</b>
+</p>
 
 ### 3.2. Server Permissions
 
@@ -197,7 +206,11 @@ We won't go into detail, explaining what each permission does. Basically, player
 </ol>
 
 **Fig.** shows what that process looks like.
-![navigate-permissions](https://user-images.githubusercontent.com/79812580/124401060-c7f44880-dcec-11eb-835b-a011212ad3a6.gif)
+<p align="center">
+  <img src="./images/navigate-permissions.gif" alt="" width="75%">
+  <br>
+  <b>Fig. 3.2 - Navigate Permissions</b>
+</p>
 
 
 ## 4. Get Your Music Bot <a name="inviteGroovy"></a>
@@ -219,13 +232,21 @@ the music in their games. So we'll make sure of that too.
 
 Click the following link to download [Groovy Bot](https://groovy.bot/). Click "Add to Discord" to begin the invititation process.
 
-<img width="1411" alt="add-to-discord-button" src="https://user-images.githubusercontent.com/79812580/124402080-65527b00-dcf3-11eb-82cf-daa5d459d8b8.png">
+<p align="center">
+  <img src="./images/add-to-discord-button.png" alt="" width="75%">
+  <br>
+  <b>Fig. 4.2 - Add To Discord Button</b>
+</p>
 
 This will navigate you to a panel that contains a dropdown menu titled "ADD TO SERVER." Select your server name and click continue. You may also need to login.
 
 At this point, you should see this panel. You need to grant admin privileges so that Groovy can create a role for itself. But, once it's done that, you should revoke admin privileges. Click "Authorize."
 
-<img width="544" alt="grant-admin-privilages" src="https://user-images.githubusercontent.com/79812580/124402044-27eded80-dcf3-11eb-8891-b670f6644e57.png">
+<p align="center">
+  <img src="./images/grant-admin-privilages.png" alt="" width="75%">
+  <br>
+  <b>Fig. 4.2 - Grant Admin Privilages</b>
+</p>
 
 Now, you should see a new member in your chat! This is groovy bot. 
 
@@ -246,14 +267,22 @@ Now let's restrict Groovy from seeing anything that happens in the "general" tex
 </ol>
 
 **Fig.** shows what that process looks like.
-![navigate-channel-permissions](https://user-images.githubusercontent.com/79812580/124403395-d7c75900-dcfb-11eb-8671-35882ed5976e.gif)
+<p align="center">
+  <img src="./images/navigate-channel-permissions.gif" alt="" width="75%">
+  <br>
+  <b>Fig. 4.2 - Navigate Channel Permissions</b>
+</p>
 
 Channel permissions override server permissions. And they take effect only in the server for which they are configured.
 You will see a list of permissions each with an x, a slash, and a check next to them. Here's what they mean:
 - a: explicitly deny this permission for this server
 - b: inherit server permission
 - c: explicitly allow this permission for this server
-<img width="343" alt="channel-permission-explanation" src="https://user-images.githubusercontent.com/79812580/124403397-da29b300-dcfb-11eb-8982-8b3f703b383c.png">
+<p align="center">
+  <img src="./images/channel-permission-explanation.png" alt="" width="75%">
+  <br>
+  <b>Fig. 4.2 - Channel Permission Explanation</b>
+</p>
 
 Explicitly deny all permissions to Groovy in the general channel.
 
