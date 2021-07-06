@@ -24,7 +24,7 @@ Discord servers are free spaces that provide text, voice, and video chat feature
 
 **Note:** This is a tutorial. It does not discuss the features of Discord in depth. However, it does touch on a few gotchas so you aren't caught off guard in the middle of a game session. For a more detailed explanation of what Discord is, click [here](https://discord.com/safety/360044149331-What-is-Discord)
 
-First, we'll create your server. Then, we'll create a new text channel specifically for communicating with your music bot and a new voice channel for private chats with players during your games. Then, we'll create some user roles for GMs and Players. Once we have those, we'll configure server and channel-specific permissions for those roles. This will give your server some structure. In the last section, you'll find a recommendation for a dice rolling bot.
+First, we'll create your server. Second, we'll create a new text channel specifically for communicating with your music bot and a new voice channel for private chats with players. Then, we'll create some user roles for GMs and Players. Once we have those, we'll configure server-wide and channel-specific permissions for those roles. That will give your server some structure. In the last section, you'll find a recommendation for a dice rolling bot!
 
 This will take about 25 minutes. Let's get going!
 
