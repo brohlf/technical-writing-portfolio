@@ -117,7 +117,7 @@ Because this is a gaming server, let's rename the <em>general</em> voice channel
 **Follow these steps** to rename a channel:
 <ol>
   <li>
-    Click on the gear icon to the right of the channel name, which will take you to the channel's settings page
+    Click on the gear icon to the right of the channel name, which will take you to the channel's settings page - see <b>Fig.2.2.1</b>
   </li>
   <li>
     Change the server's name
