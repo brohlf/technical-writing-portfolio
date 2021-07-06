@@ -5,7 +5,7 @@
 - [Prerequisites](#prerequisites)
 - [1. Create Your Server](#serverCreation)
 - [2. Create Your Channels](#createChannelsSection)
-  - [2.1. Channel Creation](#createChannels)
+  - [2.1. Creating Channels](#createChannels)
   - [2.2. Renaming Channels](#renameChannels)
 - [3. Create User Roles and Configure Permissions](#createRoles)
 - [4. Get Your Music Bot](#inviteGroovy)
@@ -79,7 +79,7 @@ Now, let's create two new channels for your server. You'll want a dedicated text
   <b>Fig. 2 - New Channels Example</b>
 </p>
 
-### 2.1. Channel Creation <a name="createChannels"></a>
+### 2.1. Creating Channels <a name="createChannels"></a>
 **Follow these steps** to create your new channels:
 <ol>
   <li>
