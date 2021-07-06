@@ -235,7 +235,7 @@ Click the following link to download [Groovy Bot](https://groovy.bot/). Click "A
 <p align="center">
   <img src="./images/add-to-discord-button.png" alt="" width="75%">
   <br>
-  <b>Fig. 4.2 - Add To Discord Button</b>
+  <b>Fig. 4.1.1 - Add To Discord Button</b>
 </p>
 
 This will navigate you to a panel that contains a dropdown menu titled "ADD TO SERVER." Select your server name and click continue. You may also need to login.
@@ -245,7 +245,7 @@ At this point, you should see this panel. You need to grant admin privileges so 
 <p align="center">
   <img src="./images/grant-admin-privilages.png" alt="" width="75%">
   <br>
-  <b>Fig. 4.2 - Grant Admin Privilages</b>
+  <b>Fig. 4.1.2 - Grant Admin Privilages</b>
 </p>
 
 Now, you should see a new member in your chat! This is groovy bot. 
@@ -270,7 +270,7 @@ Now let's restrict Groovy from seeing anything that happens in the "general" tex
 <p align="center">
   <img src="./images/navigate-channel-permissions.gif" alt="" width="75%">
   <br>
-  <b>Fig. 4.2 - Navigate Channel Permissions</b>
+  <b>Fig. 4.2.1 - Navigate Channel Permissions</b>
 </p>
 
 Channel permissions override server permissions. And they take effect only in the server for which they are configured.
@@ -281,7 +281,7 @@ You will see a list of permissions each with an x, a slash, and a check next to 
 <p align="center">
   <img src="./images/channel-permission-explanation.png" alt="" width="75%">
   <br>
-  <b>Fig. 4.2 - Channel Permission Explanation</b>
+  <b>Fig. 4.2.2 - Channel Permission Explanation</b>
 </p>
 
 Explicitly deny all permissions to Groovy in the general channel.
