@@ -112,9 +112,9 @@ Now, let's create two new channels for your server. You'll want a text channel t
     
 
 ### 2.2 Renaming Channels
-We'll start by renaming the general voice channel.
+Because this is a gaming server, let's rename the <em>general</em> voice channel to better fit that theme.
 
-**Follow these steps** to create a new text channel:
+**Follow these steps** to rename a channel:
 <ol>
   <li>
     Click on the gear icon to the right of the channel name, which will take to the channel's settings page
