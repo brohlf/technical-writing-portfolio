@@ -123,7 +123,7 @@ Because this is a gaming server, let's rename the <em>general</em> voice channel
     Change the server's name
   </li>
   <li>
-    Click on the green <em>Save Changes</em> button, which will pop up at the bottom of the page
+    Click on the green <em>Save Changes</em> button, which will appear at the bottom of the page
   </li>
 </ol>
 
