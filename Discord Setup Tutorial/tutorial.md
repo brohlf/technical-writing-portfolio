@@ -71,7 +71,7 @@ Time to create your server! This is where you will be hosting your games. It'll 
 
 
 ## 2. Create Your Channels <a name="createChannels"></a>
-Now, let's create two new channels for your server. You'll want a text channel to communicate with your music bot. And you'll also want a second voice channel (these also have video chat capalities) so you can pull players aside for private chats during games.
+Now, let's create two new channels for your server. You'll want a dedicated text channel to communicate with your music bot. You'll also want a second voice channel (these also have video chat capalities) so you can pull players aside for private chats during games.
 
 <b>Fig.2</b> shows what you'll see when you're done!
 <p align="center">
