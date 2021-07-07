@@ -280,9 +280,9 @@ Now let's restrict Groovy from seeing anything that happens in the "general" tex
 
 Channel permissions override server permissions. And they take effect only in the server for which they are configured.
 You will see a list of permissions each with an x, a slash, and a check next to them. Here's what they mean:
-- a: explicitly deny this permission for this server
+- a: explicitly deny this permission for this channel
 - b: inherit server permission
-- c: explicitly allow this permission for this server
+- c: explicitly allow this permission for this channel
 <p align="center">
   <img src="./images/channel-permission-explanation.png" alt="" width="30%">
   <br>
