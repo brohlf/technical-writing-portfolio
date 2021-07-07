@@ -8,10 +8,10 @@
   - [2.1. Creating Channels](#createChannels)
   - [2.2. Renaming Channels](#renameChannels)
 - [3. Create User Roles and Configure Permissions](#createRoles)
-  - [3.1. Roles](#roles)
-  - [3.2. Server Permissions](#serverPermissions)
+  - [3.1. Managing Roles](#roles)
+  - [3.2. Configuring Server Permissions](#serverPermissions)
 - [4. Get Your Music Bot](#getYourMusicBot)
-  - [4.1. Invite Groovy Bot](#invitingGroovy)
+  - [4.1. Inviting Groovy Bot](#invitingGroovy)
   - [4.2. Configuring Groovy Bot](#configuringGroovy)
   - [4.3. Using Groovy Bot](#usingGroovy)
 - [5. Keep Going!](#nextSteps)
@@ -149,7 +149,7 @@ Note: a more detailed discussion of permissions can be found [here](https://supp
 
 As you begin scaling your community and adding features to your server, you will need more complex roles and permissions. But that's not what this guide is about. 
 
-### 3.1. Roles <a name="roles"></a>
+### 3.1. Managing Roles <a name="roles"></a>
 
 Roles are essential to maintaining a well-organized and stable server.
 
@@ -196,7 +196,7 @@ Just right click on a user's name and navigate to the roles options. Dont worry 
   <b>Fig. 3.1.2.1 - Assign Roles</b>
 </p>
 
-### 3.2. Server Permissions <a name="serverPermissions"></a>
+### 3.2. Configuring Server Permissions <a name="serverPermissions"></a>
 
 We won't go into detail, explaining what each permission does. Basically, players need the ability to navigate through and speak in your social channels. And GMs need the ability to speak over people, mute people, move players around, and even kick or ban players that are causing problems. Just make sure that you configure your GM and Player permissions to look like [this](https://github.com/brohlf/technical-writing-portfolio/blob/main/Discord%20Setup%20Tutorial/Permission%20Configurations/gm-player-configs.md).
 
@@ -223,7 +223,7 @@ We won't go into detail, explaining what each permission does. Basically, player
 Groovy bot is one the most popular music bots for Discord. Music support from VTTs is unreliable, so if you want music in your game, you should have a music bot as backup. We will confine Groovy to a single channel so that it won't clutter your chat. You also don't want just anyone controlling it. DMs should have exclusive control over
 the music in their games. So we'll make sure of that too.
 
-### 4.1. Invite Groovy Bot <a name="invitingGroovy"></a>
+### 4.1. Inviting Groovy Bot <a name="invitingGroovy"></a>
 
 **Follow these steps** to navigate to invite Groovy to your server:
 <ol>
