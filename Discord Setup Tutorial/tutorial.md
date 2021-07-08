@@ -61,7 +61,7 @@ Time to create your server! This is where you will be hosting your games. It'll 
     </ul>
   </li>
   <li>
-    Give your server a name, and click <em>Create.</em>
+    Enter a name for your server, and click <em>Create.</em>
   </li>
 </ol>
 
